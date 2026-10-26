@@ -1,0 +1,1626 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maison Harman · Parfums au Maroc dès 129 DH</title>
+<meta name="description" content="Maison Harman (دار حرمان) : parfums homme, femme et mixte en 30, 50 ou 100 ml, dès 129 DH. Paiement à la livraison partout au Maroc, livraison offerte dès 200 DH. Aperçu Layali v2 « Lanterne ».">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0B0A0F" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5EEE1" media="(prefers-color-scheme: light)">
+<meta property="og:title" content="Maison Harman · Un parfum pour chaque nuit">
+<meta property="og:description" content="Parfums en 30, 50 ou 100 ml dès 129 DH. Paiement à la livraison, livraison offerte dès 200 DH.">
+<meta property="og:image" content="img/layali-hero-d-ltr.webp">
+<meta property="og:locale" content="fr_MA">
+<meta property="og:locale:alternate" content="ar_MA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%230B0A0F%27/%3E%3Cg fill=%27none%27 stroke=%27%23D8B46C%27 stroke-width=%272.4%27%3E%3Crect x=%2715%27 y=%2715%27 width=%2734%27 height=%2734%27/%3E%3Crect x=%2715%27 y=%2715%27 width=%2734%27 height=%2734%27 transform=%27rotate(45 32 32)%27/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Italiana&family=Jost:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap">
+<script>
+/* theme before first paint: device by default, manual choice if the visitor made one */
+(function(){var p='auto';try{p=localStorage.getItem('mh-lanterne-theme')||'auto'}catch(e){}
+var l=p==='light'||(p==='auto'&&window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches);
+document.documentElement.setAttribute('data-theme',l?'light':'dark');})();
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"#org","name":"Maison Harman","alternateName":"دار حرمان","description":"Parfums inspirés des grandes familles olfactives, livrés partout au Maroc avec paiement à la livraison.","areaServed":"MA","contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+212600000000","availableLanguage":["fr","ar"]}},
+{"@type":"WebSite","name":"Maison Harman","inLanguage":["fr","ar"],"publisher":{"@id":"#org"}}
+]}
+</script>
+<style>
+/* ============ tokens ============
+   Layer 1: raw palette. Layer 2: semantic tokens (what each colour is FOR).
+   Dark = concept 03 exactly. Light = the same lantern in daylight. .night / .day re-scope a block. */
+:root{
+  --night:#0B0A0F; --night-2:#121019; --night-3:#1A1722; --night-4:#24202D;
+  --gold:#D8B46C; --gold-hi:#EFD9A7; --gold-lo:#8A6C3A;
+  --ivory:#F5EEE1; --ivory-2:#EDE3D0; --ivory-3:#E3D6BE; --ivory-4:#D6C6A8;
+  --ink-black:#17130D; --bronze:#7A5718; --bronze-mark:#A07A34;
+  --f-display:"Italiana","Didot","Bodoni 72","Times New Roman",serif;
+  --f-text:"Jost","Futura","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-ar-display:"Amiri","Noto Naskh Arabic","Geeza Pro","Traditional Arabic",serif;
+  --f-ar-text:"Noto Naskh Arabic","Geeza Pro","Traditional Arabic","Segoe UI",sans-serif;
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --gutter:clamp(16px,4.5vw,56px);
+  --hdr:64px; --mq-h:40px;
+}
+:root,.night{
+  --bg:var(--night); --bg-2:var(--night-2); --bg-3:var(--night-3); --bg-4:var(--night-4);
+  --ink:#EEE6D6; --ink-2:#C3B59B; --ink-3:#9C8F78;
+  --head:var(--gold-hi); --gold-text:var(--gold-hi); --mark:var(--gold);
+  --line:rgba(216,180,108,.34); --line-faint:rgba(216,180,108,.12);
+  --btn-bg:var(--gold); --btn-bg-hi:var(--gold-hi); --btn-ink:var(--night);
+  --btn2-ink:var(--gold-hi);
+  --pool:rgba(216,180,108,.46);
+  --hdr-bg:rgba(11,10,15,.96); --scrim:11,10,15;
+  --glow-top:rgba(216,180,108,.10);
+  --focus:var(--gold-hi); --err:#F0B48E;
+  color-scheme:dark;
+}
+.day{
+  --bg:var(--ivory); --bg-2:var(--ivory-2); --bg-3:var(--ivory-3); --bg-4:var(--ivory-4);
+  --ink:var(--ink-black); --ink-2:#4A3F2F; --ink-3:#6E604C;
+  --head:var(--ink-black); --gold-text:var(--bronze); --mark:var(--bronze-mark);
+  --line:rgba(122,87,24,.38); --line-faint:rgba(122,87,24,.16);
+  --btn-bg:var(--ink-black); --btn-bg-hi:#2E261A; --btn-ink:#E9C98A;
+  --btn2-ink:var(--ink-black);
+  --pool:rgba(122,87,24,.34);
+  --hdr-bg:rgba(245,238,225,.96); --scrim:245,238,225;
+  --glow-top:rgba(255,206,130,.30);
+  --focus:var(--bronze); --err:#9A3A12;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg:var(--ivory); --bg-2:var(--ivory-2); --bg-3:var(--ivory-3); --bg-4:var(--ivory-4);
+    --ink:var(--ink-black); --ink-2:#4A3F2F; --ink-3:#6E604C;
+    --head:var(--ink-black); --gold-text:var(--bronze); --mark:var(--bronze-mark);
+    --line:rgba(122,87,24,.38); --line-faint:rgba(122,87,24,.16);
+    --btn-bg:var(--ink-black); --btn-bg-hi:#2E261A; --btn-ink:#E9C98A;
+    --btn2-ink:var(--ink-black);
+    --pool:rgba(122,87,24,.34);
+    --hdr-bg:rgba(245,238,225,.96); --scrim:245,238,225;
+    --glow-top:rgba(255,206,130,.30);
+    --focus:var(--bronze); --err:#9A3A12;
+    color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --bg:var(--ivory); --bg-2:var(--ivory-2); --bg-3:var(--ivory-3); --bg-4:var(--ivory-4);
+  --ink:var(--ink-black); --ink-2:#4A3F2F; --ink-3:#6E604C;
+  --head:var(--ink-black); --gold-text:var(--bronze); --mark:var(--bronze-mark);
+  --line:rgba(122,87,24,.38); --line-faint:rgba(122,87,24,.16);
+  --btn-bg:var(--ink-black); --btn-bg-hi:#2E261A; --btn-ink:#E9C98A;
+  --btn2-ink:var(--ink-black);
+  --pool:rgba(122,87,24,.34);
+  --hdr-bg:rgba(245,238,225,.96); --scrim:245,238,225;
+  --glow-top:rgba(255,206,130,.30);
+  --focus:var(--bronze); --err:#9A3A12;
+  color-scheme:light;
+}
+.night,.day{background-color:var(--bg);color:var(--ink)}
+
+/* ============ base ============ */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--hdr) + 12px);background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--f-text);overflow-x:hidden;transition:background-color .4s var(--ease-out),color .4s var(--ease-out)}
+html[lang="ar"] body{font-family:var(--f-ar-text);font-size:18px;line-height:1.85}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+::selection{background:var(--btn-bg);color:var(--btn-ink)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+:focus{scroll-margin-bottom:96px}
+html{scrollbar-color:var(--mark) var(--bg)}
+input{caret-color:var(--mark)}
+[hidden]{display:none!important}
+.vh{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;inset-inline-start:12px;top:-60px;z-index:100;background:var(--btn-bg);color:var(--btn-ink);padding:10px 14px;text-decoration:none}
+.skip:focus{top:10px}
+.wrap{width:100%;max-width:1320px;margin-inline:auto;padding-inline:var(--gutter)}
+.disp{font-family:var(--f-display);font-weight:400;letter-spacing:.01em;line-height:1.05;color:var(--head);margin:0}
+html[lang="ar"] .disp{font-family:var(--f-ar-display);font-weight:400;letter-spacing:0;line-height:1.4}
+.h2{font-size:clamp(34px,7.6vw,60px);max-width:100%;text-wrap:balance}
+html[lang="ar"] .h2{font-size:clamp(36px,8vw,62px)}
+.lede{color:var(--ink-2);max-width:56ch;margin:.6em 0 0;text-wrap:pretty}
+.sec{position:relative;padding-block:clamp(60px,10vw,120px)}
+.sec-head{text-align:center;display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:4px;margin-bottom:clamp(26px,5vw,44px)}
+.sec-head .lede{margin-inline:auto}
+.rule{display:flex;align-items:center;gap:12px;justify-content:center;color:var(--mark);margin:14px auto 0;width:min(240px,60%)}
+.rule::before,.rule::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--line))}
+.rule::after{transform:scaleX(-1)}
+.rule svg{width:14px;height:14px;flex:none}
+.sample{display:inline-flex;align-items:center;gap:6px;font-size:13px;letter-spacing:.04em;color:var(--ink-2);border:1px solid var(--line);padding:3px 10px;border-radius:999px;max-width:100%;text-align:start;line-height:1.35;background:var(--bg)}
+.sample::before{content:"";flex:none;width:5px;height:5px;background:var(--mark);transform:rotate(45deg)}
+html[lang="ar"] .sample{letter-spacing:0;font-size:13.5px}
+.price{font-variant-numeric:tabular-nums lining-nums;color:var(--gold-text);font-weight:500;white-space:nowrap}
+.ico{width:20px;height:20px;flex:none}
+html[dir="rtl"] .flip{transform:scaleX(-1)}
+
+/* ============ buttons: octagonal zellige cut, lantern light pooled under what you can tap ============ */
+.btn{--c:9px;--oct:polygon(var(--c) 0,calc(100% - var(--c)) 0,100% var(--c),100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,var(--c) 100%,0 calc(100% - var(--c)),0 var(--c));
+  position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border:0;background:none;cursor:pointer;text-decoration:none;
+  font-weight:500;font-size:16px;letter-spacing:.04em;white-space:nowrap;color:var(--btn-ink);transition:transform .2s var(--ease-out),color .25s}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--btn-bg);clip-path:var(--oct);transition:background-color .25s var(--ease-out)}
+@media (hover:hover){.btn:hover::before{background:var(--btn-bg-hi)}}
+.btn:active{transform:translateY(1px)}
+html[lang="ar"] .btn{letter-spacing:0;font-size:17px;font-weight:600}
+.btn-line{color:var(--btn2-ink)}
+.btn-line::before{background:var(--mark);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;padding:1px}
+@media (hover:hover){.btn-line:hover::before{background:var(--head)}}
+.btn-sm{min-height:46px;padding:0 16px;font-size:15px;--c:7px}
+.btn-wide{width:100%}
+.btn[disabled]{cursor:not-allowed;color:var(--ink-3)}
+.btn[disabled]::before{background:var(--line-faint)}
+.btn svg{width:16px;height:16px;flex:none}
+.lit::after{content:"";position:absolute;z-index:-2;left:6%;right:6%;bottom:-15px;height:24px;pointer-events:none;
+  background:radial-gradient(50% 50% at 50% 40%,var(--pool),transparent 74%);transition:opacity .4s var(--ease-out)}
+.btn[disabled].lit::after{opacity:0}
+.link{color:var(--gold-text);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:6px;text-decoration-thickness:1px;background:none;border:0;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;font-size:inherit}
+.link:hover{text-decoration-color:var(--mark)}
+
+/* ============ moving bar (always night, in both modes) ============ */
+.mq{position:relative;z-index:41;display:flex;align-items:center;min-height:var(--mq-h);background:var(--night-2);border-bottom:1px solid var(--line-faint);color:var(--ink-2);font-size:14px}
+.mq-vp{flex:1;overflow:hidden;display:flex;min-width:0}
+.mq-track{display:flex;flex:none;gap:34px;padding-inline:17px;white-space:nowrap;animation:mq 38s linear infinite}
+html[dir="rtl"] .mq-track{animation-name:mq-rtl}
+.mq-track span{display:inline-flex;align-items:center;gap:9px}
+.mq-track svg{width:16px;height:16px;color:var(--gold);flex:none}
+.mq-track b{color:var(--gold-hi);font-weight:500}
+.mq.paused .mq-track{animation-play-state:paused}
+.mq-btn{flex:none;width:44px;height:44px;display:grid;place-items:center;background:none;border:0;border-inline-start:1px solid var(--line-faint);color:var(--gold-hi);cursor:pointer}
+.mq-btn svg{width:14px;height:14px}
+@keyframes mq{to{transform:translateX(-50%)}}
+@keyframes mq-rtl{to{transform:translateX(50%)}}
+html[lang="ar"] .mq{font-size:15px}
+
+/* ============ header ============ */
+.hdr{position:sticky;top:0;z-index:40;background:var(--hdr-bg);border-bottom:1px solid var(--line-faint);transition:background-color .4s}
+@supports (backdrop-filter:blur(8px)){.hdr{backdrop-filter:saturate(1.1) blur(8px)}}
+.hdr-in{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;min-height:var(--hdr);gap:6px}
+.hdr-in .logo{justify-self:center}
+.hdr-start,.hdr-end{display:flex;align-items:center;gap:0}
+.hdr-end{justify-content:flex-end}
+.ib{display:inline-grid;place-items:center;min-width:44px;height:44px;background:none;border:0;cursor:pointer;color:var(--head);position:relative;border-radius:2px;text-decoration:none}
+.ib svg{width:22px;height:22px}
+@media (hover:hover){.ib:hover{color:var(--mark)}}
+.count{position:absolute;top:3px;inset-inline-end:1px;min-width:18px;height:18px;padding:0 4px;display:grid;place-items:center;background:var(--btn-bg);color:var(--btn-ink);font:600 11px/1 var(--f-text);border-radius:9px;transition:transform .3s var(--ease-out)}
+.count.bump{transform:scale(1.3)}
+.count[data-n="0"]{display:none}
+.d-only{display:none!important}
+@media (min-width:1080px){.d-only{display:inline-grid!important}.m-only{display:none!important}}
+.lang{display:inline-flex;align-items:center;height:44px;padding:0 6px;background:none;border:0;cursor:pointer;color:var(--ink-2);font-size:14px;gap:4px}
+.lang span{padding:2px 3px}
+.lang .on{color:var(--head);border-bottom:1px solid var(--mark)}
+.lang .ar{font-family:var(--f-ar-display);font-size:20px;line-height:1}
+.theme-btn .sun,.theme-btn .star{display:none}
+[data-theme="dark"] .theme-btn .sun,[data-theme="light"] .theme-btn .star{display:block}
+.logo{display:flex;align-items:center;gap:8px;min-height:44px;text-decoration:none;color:var(--head)}
+.logo svg.mono{width:32px;height:32px;flex:none;color:var(--mark)}
+.wordmark{font-family:var(--f-display);font-size:17px;letter-spacing:.28em;white-space:nowrap;line-height:1;padding-top:2px}
+.wordmark-ar{display:none;font-family:"Amiri",var(--f-ar-display);font-weight:700;font-size:23px;line-height:1.1;white-space:nowrap;letter-spacing:0;padding-bottom:4px}
+html[lang="ar"] .hdr .wordmark{display:none}
+html[lang="ar"] .hdr .wordmark-ar{display:block}
+.nav{display:none}
+@media (max-width:430px){.wordmark{font-size:12px;letter-spacing:.15em}.logo svg.mono{width:26px;height:26px}.logo{gap:6px}.lang{padding:0 2px;font-size:13px}.lang .ar{font-size:19px}.hdr-in{gap:2px}.wordmark-ar{font-size:21px}}
+@media (max-width:374px){.hdr .wordmark{display:none}html[lang="ar"] .hdr .wordmark-ar{display:none}}
+@media (min-width:1080px){
+  :root{--hdr:84px}
+  .hdr-in{grid-template-columns:1fr auto 1fr}
+  .nav{display:flex;gap:2px}
+  .nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 11px;text-decoration:none;color:var(--ink);font-size:15px;letter-spacing:.05em}
+  html[lang="ar"] .nav a{letter-spacing:0;font-size:17px}
+  .nav a:hover{color:var(--gold-text)}
+  .menu-btn{display:none!important}
+  .logo{flex-direction:column;gap:6px}
+  .logo svg.mono{width:38px;height:38px}
+  .wordmark{font-size:15px}
+}
+
+/* ============ hero (video-ready media slot) ============ */
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero-media{position:relative}
+.hero-media img,.hero-media video{display:block;width:100%;height:auto;aspect-ratio:9/14;object-fit:cover}
+.hero-media::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(var(--scrim),0) 48%,rgba(var(--scrim),.8) 70%,var(--bg) 92%)}
+.hero-copy{position:relative;z-index:2;margin-top:-44vw;padding-bottom:26px;text-align:center}
+.hero h1{font-size:clamp(42px,11.6vw,96px);text-wrap:balance}
+html[lang="ar"] .hero h1{font-size:clamp(46px,12.6vw,104px);line-height:1.35}
+.hero .lede{margin:.5em auto 0;font-size:17px;max-width:34ch}
+.hero-ctas{display:grid;gap:14px;margin:22px auto 0;max-width:420px}
+.hero-ctas .btn{width:100%}
+.reassure{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin:18px 0 0;padding:0;list-style:none;font-size:14px;color:var(--ink-2)}
+.reassure li{display:inline-flex;align-items:center;gap:7px}
+.reassure svg{width:20px;height:20px;color:var(--mark)}
+html[lang="ar"] .reassure{font-size:15px}
+.tag-sample{position:absolute;top:12px;inset-inline-end:12px;z-index:3}
+.hero-frame{position:relative}
+.video-ctl{position:absolute;z-index:4;bottom:14px;inset-inline-start:12px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:rgba(var(--scrim),.7);color:var(--head);display:grid;place-items:center;cursor:pointer}
+.video-ctl[hidden]{display:none}
+.hot{position:absolute;z-index:3;left:50%;top:63.5%;transform:translate(-50%,-50%)}
+.hot-btn{position:relative;isolation:isolate;display:flex;align-items:center;gap:12px;min-height:52px;background:rgba(var(--scrim),.84);border:1px solid var(--mark);cursor:pointer;padding:6px 14px 6px 16px;color:var(--ink);text-align:start;white-space:nowrap}
+html[dir="rtl"] .hot-btn{padding:6px 16px 6px 14px}
+.hot-btn::after{content:"";position:absolute;z-index:-1;left:0;right:0;bottom:-18px;height:26px;background:radial-gradient(50% 50% at 50% 30%,var(--pool),transparent 75%);pointer-events:none}
+.hot-label{font-size:14.5px;line-height:1.3}
+.hot-label b{display:block;font-weight:500;color:var(--head)}
+.hot-label .price{font-size:15px}
+.hot-chev{width:14px;height:14px;color:var(--mark);transition:transform .3s var(--ease-out)}
+.hot-btn[aria-expanded="true"] .hot-chev{transform:rotate(180deg)}
+.hot-panel{position:absolute;left:50%;transform:translateX(-50%);top:calc(100% + 10px);width:min(320px,88vw);background:var(--bg-2);border:1px solid var(--line);padding:14px;display:grid;gap:12px;text-align:center;box-shadow:0 14px 30px -12px rgba(0,0,0,.45)}
+.hot-panel[hidden]{display:none}
+.hot-panel p{margin:0;font-size:15px;color:var(--ink-2)}
+@media (min-width:900px){
+  .hero{--hh:min(calc(100svh - var(--hdr) - var(--mq-h)),860px);height:var(--hh);min-height:560px;display:grid;align-items:center}
+  .hero-media{position:absolute;inset:0;z-index:-1;overflow:hidden}
+  .hero-frame{--fw:max(100%,calc(max(var(--hh),560px) * 1.8));position:absolute;left:50%;top:50%;width:var(--fw);aspect-ratio:18/10;margin-left:calc(var(--fw) / -2);margin-top:calc(var(--fw) / -3.6)}
+  .hero-media img,.hero-media video{width:100%;height:100%;aspect-ratio:auto}
+  .hero-media::after{background:linear-gradient(90deg,var(--bg) 0%,rgba(var(--scrim),.82) 26%,rgba(var(--scrim),0) 50%)}
+  html[dir="rtl"] .hero-media::after{background:linear-gradient(270deg,var(--bg) 0%,rgba(var(--scrim),.82) 26%,rgba(var(--scrim),0) 50%)}
+  .hero-copy{margin:0;padding-block:48px;text-align:start}
+  .hc{max-width:540px}
+  .hero h1{font-size:clamp(52px,5vw,74px)}
+  html[lang="ar"] .hero h1{font-size:clamp(60px,6vw,92px)}
+  .hero .lede{margin-inline:0;font-size:19px}
+  .hero-ctas{grid-auto-flow:column;justify-content:start;margin-inline:0;max-width:none}
+  .hero-ctas .btn{width:auto}
+  .reassure{justify-content:flex-start}
+  .tag-sample{top:auto;bottom:16px}
+  .hot{left:68%;top:71.5%}
+  html[dir="rtl"] .hot{left:32%}
+}
+
+/* ============ arches ============ */
+.clip-a{position:absolute;inset:0;background:var(--bg-3)}
+.arch-line{position:absolute;inset:-7px;width:calc(100% + 14px);height:calc(100% + 14px);overflow:visible;pointer-events:none}
+.arch-line path{fill:none;stroke:var(--mark);stroke-width:1;vector-effect:non-scaling-stroke;opacity:.75}
+
+/* doors */
+.doors{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(10px,2.4vw,32px);max-width:1040px;margin-inline:auto}
+.door{text-decoration:none;display:grid;gap:10px;justify-items:center;text-align:center;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.door-media{position:relative;width:100%;aspect-ratio:3/4}
+.door-media .clip-a{clip-path:url(#arch34)}
+.door-media img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease-out)}
+@media (hover:hover){.door:hover img{transform:scale(1.05)}}
+.door-name{font-family:var(--f-display);font-size:clamp(22px,5.6vw,36px);color:var(--head);line-height:1}
+html[lang="ar"] .door-name{font-family:var(--f-ar-display);font-weight:700}
+.door-meta{font-size:14px;color:var(--ink-2);display:inline-flex;align-items:center;gap:6px;min-height:28px;border-bottom:1px solid var(--line);padding-bottom:2px}
+.door-meta svg{width:14px;height:14px;color:var(--mark)}
+
+/* ============ chips / tabs ============ */
+.chiprow{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:4px var(--gutter) 10px;margin:0 calc(var(--gutter) * -1) 18px;scroll-snap-type:x proximity}
+.chiprow::-webkit-scrollbar{display:none}
+@media (min-width:900px){.chiprow{justify-content:center;margin-inline:0;padding-inline:0;flex-wrap:wrap;overflow:visible}}
+.chip{position:relative;isolation:isolate;flex:none;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--line);background:none;cursor:pointer;color:var(--ink);font-size:15px;scroll-snap-align:start;white-space:nowrap}
+html[lang="ar"] .chip{font-size:16px}
+.chip small{color:var(--ink-3);font-size:13px}
+.chip[aria-selected="true"],.chip[aria-pressed="true"]{background:var(--btn-bg);color:var(--btn-ink);border-color:var(--btn-bg)}
+.chip[aria-selected="true"] small,.chip[aria-pressed="true"] small{color:inherit;opacity:.75}
+.chip[aria-selected="true"]::after,.chip[aria-pressed="true"]::after{content:"";position:absolute;z-index:-1;left:4%;right:4%;bottom:-13px;height:18px;background:radial-gradient(50% 50% at 50% 30%,var(--pool),transparent 75%);pointer-events:none}
+
+/* ============ product cards (best sellers) ============ */
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:min(74%,290px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px var(--gutter) 26px;margin-inline:calc(var(--gutter) * -1);scrollbar-width:thin;overscroll-behavior-x:contain}
+.rail>*{scroll-snap-align:center}
+@media (min-width:900px){.rail{display:flex;flex-wrap:wrap;justify-content:center;overflow:visible;margin:0;padding:10px 0 20px;gap:28px 24px}.rail>.pc{width:calc(25% - 18px);min-width:240px}}
+.pc{display:grid;gap:6px;align-content:start;position:relative}
+.pc-media{position:relative;display:block;aspect-ratio:4/5;margin:7px 7px 8px;text-decoration:none}
+.pc-media .clip-a{clip-path:url(#arch45)}
+.pc-media img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease-out)}
+@media (hover:hover){.pc:hover .pc-media img{transform:scale(1.04)}}
+.badge{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);z-index:2;background:rgba(var(--scrim),.88);border:1px solid var(--line);color:var(--head);font-size:13px;padding:3px 10px;white-space:nowrap;letter-spacing:.04em}
+html[lang="ar"] .badge{letter-spacing:0;font-size:13.5px}
+.pc-num{margin:0;font-size:13.5px;color:var(--ink-3);letter-spacing:.06em;text-align:center}
+html[lang="ar"] .pc-num{letter-spacing:0;font-size:14px}
+.pc-name{margin:0;text-align:center;font-family:var(--f-display);font-weight:400;font-size:32px;line-height:1.05;color:var(--head)}
+html[lang="ar"] .pc-name{font-family:var(--f-ar-display);font-weight:700;font-size:30px;line-height:1.45}
+.pc-tag{margin:0 0 4px;text-align:center;color:var(--ink-2);font-size:15px;line-height:1.4;min-height:2.8em}
+html[lang="ar"] .pc-tag{font-size:16px;line-height:1.6}
+.sz{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);margin:4px 0 0}
+.sz-o{position:relative;display:block;cursor:pointer}
+.sz-o+.sz-o{border-inline-start:1px solid var(--line-faint)}
+.sz-o input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+.sz-o span{display:grid;place-items:center;min-height:46px;padding:2px 4px;font-size:15px;color:var(--ink-2);transition:background-color .25s,color .25s;font-variant-numeric:tabular-nums}
+html[lang="ar"] .sz-o span{font-size:16px}
+.sz-o input:checked+span{background:var(--btn-bg);color:var(--btn-ink);font-weight:500}
+.sz-o input:focus-visible+span{outline:2px solid var(--focus);outline-offset:-4px}
+@media (hover:hover){.sz-o:hover input:not(:checked)+span{color:var(--head);background:var(--line-faint)}}
+.pc-price{display:flex;justify-content:center;align-items:center;gap:10px;min-height:40px;flex-wrap:wrap}
+.pc-price .price{font-size:24px}
+.free{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--gold-text);border:1px solid var(--line);padding:2px 8px;white-space:nowrap}
+.free svg{width:17px;height:17px}
+.free[hidden]{display:none}
+.pc .btn{width:100%}
+.more-row{text-align:center;margin-top:18px}
+
+/* ============ tarif ============ */
+.sizes3{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line);max-width:860px;margin-inline:auto;position:relative}
+.s3{position:relative;display:grid;justify-items:center;align-content:start;gap:4px;padding:18px 6px 18px;text-align:center}
+.s3+.s3{border-inline-start:1px solid var(--line-faint)}
+.s3 svg{height:auto;color:var(--mark);margin-bottom:6px}
+.s3 svg path,.s3 svg rect{fill:none;stroke:currentColor;stroke-width:1.2;vector-effect:non-scaling-stroke}
+.s3 .ml{font-family:var(--f-display);font-size:clamp(24px,6vw,34px);color:var(--head);line-height:1}
+html[lang="ar"] .s3 .ml{font-family:var(--f-ar-display);font-weight:700;font-size:clamp(22px,5.6vw,30px)}
+.s3 .price{font-size:clamp(22px,5.6vw,30px)}
+.s3 .use{font-size:14px;color:var(--ink-2);line-height:1.35;max-width:14ch}
+.s3 .perml{font-size:12.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+html[lang="ar"] .s3 .use{font-size:15px}
+.s3.best{background:radial-gradient(90% 60% at 50% 100%,var(--line-faint),transparent 70%)}
+.s3.best .use{color:var(--gold-text)}
+.tar-fine{max-width:860px;margin:16px auto 0;display:grid;gap:8px;text-align:center;font-size:15px;color:var(--ink-2)}
+.tar-fine p{margin:0}
+.tar-fine b{color:var(--head);font-weight:500}
+.promise{list-style:none;margin:30px auto 0;padding:0;max-width:960px;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-faint);border:1px solid var(--line-faint)}
+.promise li{background:var(--bg);padding:18px 14px;display:grid;gap:6px;align-content:start}
+.promise svg{width:30px;height:30px;color:var(--mark)}
+.promise b{font-weight:500;color:var(--head);font-size:16px;line-height:1.3}
+.promise span{font-size:14.5px;color:var(--ink-2);line-height:1.45}
+html[lang="ar"] .promise b{font-size:17px}
+html[lang="ar"] .promise span{font-size:15px}
+.promise li.key{background:linear-gradient(180deg,var(--line-faint),transparent),var(--bg)}
+@media (min-width:900px){.promise{grid-template-columns:repeat(4,1fr)}.promise li{padding:24px 22px}}
+.duos-h{text-align:center;margin:clamp(44px,8vw,72px) 0 18px}
+.duos-h h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:clamp(30px,7vw,44px);color:var(--head);line-height:1.1}
+html[lang="ar"] .duos-h h3{font-family:var(--f-ar-display);font-weight:700}
+.duos-h p{margin:6px auto 0;color:var(--ink-2);max-width:44ch}
+.duos{display:grid;gap:14px;max-width:1100px;margin-inline:auto}
+@media (min-width:900px){.duos{grid-template-columns:repeat(3,1fr);gap:20px}}
+.duo{display:grid;grid-template-columns:118px 1fr;gap:14px;align-items:center;border:1px solid var(--line);padding:12px;background:var(--bg-2)}
+.duo-pics{position:relative;height:132px}
+.duo-pics span{position:absolute;bottom:0;width:72px;aspect-ratio:4/5;clip-path:url(#arch45);background:var(--bg-3);overflow:hidden}
+.duo-pics span:first-child{inset-inline-start:0;z-index:1}
+.duo-pics span:last-child{inset-inline-end:0;bottom:14px}
+.duo-pics img{width:100%;height:100%;object-fit:cover}
+.duo h4{margin:0;font-family:var(--f-display);font-weight:400;font-size:25px;color:var(--head);line-height:1.1}
+html[lang="ar"] .duo h4{font-family:var(--f-ar-display);font-weight:700;font-size:23px;line-height:1.45}
+.duo .names{margin:2px 0 8px;font-size:14px;color:var(--ink-2);line-height:1.4}
+.duo .free{margin-bottom:10px}
+.duo .btn{width:100%;grid-column:1 / -1;white-space:normal;text-align:center;line-height:1.25;padding-block:6px}
+.duo>div{min-width:0}
+
+/* ============ moments: day / night ============ */
+.tod-legend{display:block;text-align:center;font-family:var(--f-display);font-size:clamp(24px,5.6vw,32px);color:var(--head);margin:0 0 12px;line-height:1.2}
+html[lang="ar"] .tod-legend{font-family:var(--f-ar-display);font-weight:700}
+.tod{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:760px;margin:0 auto}
+.tod-btn{position:relative;isolation:isolate;display:grid;gap:0;padding:0;border:1px solid var(--line);background:var(--bg-2);cursor:pointer;color:var(--ink);text-align:center;overflow:visible}
+.tod-img{display:block;position:relative;aspect-ratio:4/3;overflow:hidden}
+.tod-img img{width:100%;height:100%;object-fit:cover;object-position:50% 52%;transition:transform .8s var(--ease-out),filter .5s}
+.tod-btn[aria-pressed="false"] .tod-img img{filter:saturate(.55) brightness(.8)}
+@media (min-width:900px){.tod-img{aspect-ratio:16/8}.wa-txt .h2{font-size:clamp(38px,3.6vw,54px)}}
+.tod-l{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;font-size:17px;font-weight:500}
+.tod-l svg{width:22px;height:22px;color:var(--mark)}
+.tod-btn[aria-pressed="true"]{border-color:var(--mark);box-shadow:inset 0 0 0 1px var(--mark)}
+.tod-btn[aria-pressed="true"]::after{content:"";position:absolute;z-index:-1;left:10%;right:10%;bottom:-18px;height:26px;background:radial-gradient(50% 50% at 50% 30%,var(--pool),transparent 75%)}
+.tod-btn[aria-pressed="true"] .tod-l{background:var(--btn-bg);color:var(--btn-ink)}
+.tod-btn[aria-pressed="true"] .tod-l svg{color:inherit}
+.mom-pane{margin:26px auto 0;max-width:1100px;padding:20px var(--gutter) 24px;border:1px solid var(--line);transition:background-color .5s var(--ease-out),color .5s var(--ease-out)}
+@media (max-width:899px){.mom-pane{margin-inline:calc(var(--gutter) * -1);border-inline:0}}
+.mom-lead{margin:0 0 14px;text-align:center;color:var(--ink-2)}
+.mom-pane .chiprow{margin-bottom:8px}
+.minis{display:grid;grid-auto-flow:column;grid-auto-columns:min(46%,200px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px var(--gutter) 22px;margin-inline:calc(var(--gutter) * -1);scrollbar-width:thin}
+.minis>*{scroll-snap-align:start}
+@media (min-width:900px){.minis{grid-auto-flow:row;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));overflow:visible;margin:0;padding:6px 0 10px}}
+.mini{display:grid;gap:4px;align-content:start;text-align:center}
+.mini-media{position:relative;display:block;aspect-ratio:4/5;margin:0 4px 6px}
+.mini-media .clip-a{clip-path:url(#arch45)}
+.mini-media img{width:100%;height:100%;object-fit:cover}
+.mini h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:24px;line-height:1.1;color:var(--head)}
+html[lang="ar"] .mini h3{font-family:var(--f-ar-display);font-weight:700;font-size:22px;line-height:1.5}
+.mini .mt{margin:0;font-size:13.5px;color:var(--ink-3);line-height:1.35;min-height:2.7em}
+html[lang="ar"] .mini .mt{font-size:14px}
+.mini .btn{width:100%;padding:0 8px;font-size:14.5px;margin-top:4px}
+html[lang="ar"] .mini .btn{font-size:15px}
+
+/* ============ la carte (menu card) + matières ============ */
+.mats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px 6px;max-width:420px;margin:0 auto 18px;padding:4px 0}
+@media (min-width:900px){.mats{grid-template-columns:repeat(7,96px);max-width:none;justify-content:center}}
+.mat{position:relative;isolation:isolate;display:grid;justify-items:center;gap:6px;width:100%;padding:0;background:none;border:0;cursor:pointer;color:var(--ink);text-align:center}
+.mat-img{width:68px;height:68px;border-radius:50%;overflow:hidden;border:1px solid var(--line);display:grid;place-items:center;background:var(--bg-2);transition:box-shadow .3s,border-color .3s}
+.mat-img img{width:100%;height:100%;object-fit:cover}
+.mat-img b{font-family:var(--f-display);font-weight:400;font-size:26px;color:var(--head)}
+.mat-n{font-size:13.5px;line-height:1.25;min-height:2.5em}
+html[lang="ar"] .mat-n{font-size:14px}
+.mat[aria-pressed="true"] .mat-img{border-color:var(--mark);box-shadow:0 0 0 2px var(--bg),0 0 0 3px var(--mark)}
+.mat[aria-pressed="true"]::after{content:"";position:absolute;z-index:-1;left:4px;right:4px;top:44px;height:40px;background:radial-gradient(50% 50% at 50% 50%,var(--pool),transparent 75%)}
+.mat[aria-pressed="true"] .mat-n{color:var(--gold-text);font-weight:500}
+.mats-h{text-align:center;margin:0 0 12px;font:500 16px/1.3 var(--f-text);color:var(--ink-2);letter-spacing:.02em}
+html[lang="ar"] .mats-h{font-family:var(--f-ar-text);letter-spacing:0;font-size:17px}
+.carte{position:relative;max-width:900px;margin:0 auto;border:1px solid var(--line);padding:clamp(18px,4vw,40px) clamp(12px,4vw,44px);background:var(--bg-2)}
+.carte::before{content:"";position:absolute;inset:6px;border:1px solid var(--line-faint);pointer-events:none}
+.carte-top{display:flex;justify-content:space-between;align-items:end;gap:10px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:6px}
+.carte-count{margin:0;font-size:14px;color:var(--ink-3)}
+.cols{display:grid;grid-template-columns:repeat(3,52px);gap:6px;font-size:12.5px;color:var(--ink-3);text-align:center;font-variant-numeric:tabular-nums}
+html[lang="ar"] .cols{font-size:13.5px}
+.cfam{margin:0;padding:16px 0 4px;display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:400;font-size:22px;color:var(--gold-text);line-height:1.2}
+html[lang="ar"] .cfam{font-family:var(--f-ar-display);font-weight:700;font-size:21px}
+.cfam svg{width:14px;height:14px;color:var(--mark);flex:none}
+.cline{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding:8px 0;border-bottom:1px dotted var(--line)}
+.cline:target{background:var(--line-faint)}
+.cl-name{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:8px;row-gap:0;min-width:0}
+.cl-name b{font-family:var(--f-display);font-weight:400;font-size:24px;color:var(--head);line-height:1.15}
+html[lang="ar"] .cl-name b{font-family:var(--f-ar-display);font-weight:700;font-size:22px;line-height:1.5}
+.cl-name small{font-size:13px;color:var(--ink-3);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cl-tag{grid-column:1;margin:0;font-size:14px;color:var(--ink-2);line-height:1.35}
+html[lang="ar"] .cl-tag{font-size:15px}
+.cl-prices{grid-row:1 / span 2;grid-column:2;display:grid;grid-template-columns:repeat(3,52px);gap:6px}
+.pb{position:relative;min-height:46px;display:grid;place-items:center;border:1px solid var(--line);background:none;cursor:pointer;color:var(--gold-text);font-weight:500;font-size:15px;font-variant-numeric:tabular-nums;padding:0 2px;transition:background-color .2s,color .2s}
+@media (hover:hover){.pb:hover{background:var(--btn-bg);color:var(--btn-ink);border-color:var(--btn-bg)}}
+.pb.done{background:var(--btn-bg);color:var(--btn-ink)}
+.carte-foot{margin:16px 0 0;font-size:14px;color:var(--ink-3);text-align:center}
+.cline[hidden],.cfam[hidden]{display:none}
+@media (min-width:900px){.cols,.cl-prices{grid-template-columns:repeat(3,64px)}}
+
+/* ============ trio ============ */
+.trio{display:grid;gap:22px;max-width:1100px;margin-inline:auto}
+.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,6vw,30px);max-width:500px;padding-inline:8px;margin-inline:auto;width:100%}
+.slot{position:relative;isolation:isolate;display:grid;gap:6px;justify-items:center;text-align:center;background:none;border:0;padding:0;color:inherit;cursor:default;font:inherit}
+.slot-a{position:relative;width:100%;aspect-ratio:4/5}
+.slot-a .clip-a{clip-path:url(#arch45);background:var(--bg-2)}
+.slot-a img{width:100%;height:100%;object-fit:cover}
+.slot-a .n{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-display);font-size:34px;color:var(--ink-3)}
+.slot .arch-line path{stroke-dasharray:3 4;opacity:.6}
+.slot.filled .arch-line path{stroke-dasharray:none;opacity:.85}
+.slot.next::after{content:"";position:absolute;z-index:-1;left:-8%;right:-8%;bottom:14px;height:70%;background:radial-gradient(50% 50% at 50% 70%,var(--pool),transparent 72%);animation:breathe 2.6s ease-in-out 2}
+.slot.next .slot-a .n{color:var(--gold-text)}
+.slot.next .arch-line path{opacity:1;stroke-dasharray:none}
+@keyframes breathe{50%{opacity:.45}}
+.slot-name{font-size:15px;color:var(--ink-2);min-height:1.5em;line-height:1.3}
+.slot-rm{display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:0 6px;background:none;border:0;color:var(--gold-text);cursor:pointer;font-size:14px;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.picker{display:grid;grid-auto-flow:column;grid-auto-columns:104px;gap:10px;overflow-x:auto;padding:8px var(--gutter) 16px;margin-inline:calc(var(--gutter) * -1);scroll-snap-type:x proximity;scrollbar-width:thin}
+@media (min-width:900px){.picker{grid-auto-flow:row;grid-template-columns:repeat(8,1fr);overflow:visible;margin:0;padding:8px 0}}
+.pk{position:relative;display:grid;gap:4px;justify-items:center;padding:6px 4px 8px;border:1px solid var(--line-faint);background:var(--bg-2);cursor:pointer;color:var(--ink);scroll-snap-align:start;text-align:center}
+.pk img{width:72px;height:90px;object-fit:cover;clip-path:url(#arch45)}
+.pk b{font-weight:500;font-size:15px;line-height:1.2}
+html[lang="ar"] .pk b{font-size:16px}
+.pk small{font-size:12.5px;color:var(--ink-3)}
+.pk[aria-pressed="true"]{border-color:var(--mark);background:var(--bg-3)}
+.pk[aria-pressed="true"]::before{content:"";position:absolute;top:6px;inset-inline-end:6px;width:20px;height:20px;border-radius:50%;background:var(--btn-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='%23D8B46C' stroke-width='2.4'/%3E%3C/svg%3E") center/14px no-repeat}
+.trio-bar{max-width:520px;margin-inline:auto;width:100%;display:grid;gap:12px;border:1px solid var(--line);padding:16px;background:var(--bg-2)}
+.trio-bar .tp{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.trio-bar .tp>span:first-child{color:var(--ink-2);font-size:15px}
+.trio-bar s{color:var(--ink-3);margin-inline-end:8px;font-size:15px}
+.trio-bar .price{font-size:26px}
+.trio-bar .tools{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.trio-msg{margin:0;font-size:14px;color:var(--gold-text);min-height:1.4em;text-align:center}
+@media (min-width:900px){.trio{grid-template-columns:1fr 1fr;align-items:start;gap:40px}.trio .picker{grid-column:1 / -1;order:3}}
+
+/* ============ WhatsApp order ============ */
+.wa{display:grid;gap:clamp(26px,5vw,64px);align-items:center;max-width:1100px;margin-inline:auto}
+@media (min-width:900px){.wa{grid-template-columns:1fr 1fr}}
+.phone{position:relative;max-width:380px;width:100%;margin-inline:auto;border:1px solid var(--line);background:var(--bg-2);padding:0 0 14px}
+.phone::before{content:"";position:absolute;inset:6px;border:1px solid var(--line-faint);pointer-events:none}
+.ph-top{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line-faint)}
+.ph-top svg{width:34px;height:34px;color:var(--mark);flex:none}
+.ph-top b{display:block;font-weight:500;color:var(--head);font-size:15px;line-height:1.2}
+.ph-top span{font-size:13px;color:var(--ink-3)}
+.ph-top .sample{margin-inline-start:auto;font-size:12px;padding:2px 8px}
+.msgs{display:grid;gap:8px;padding:14px 14px 4px}
+.msg{max-width:84%;padding:9px 12px 6px;font-size:15px;line-height:1.45;position:relative}
+html[lang="ar"] .msg{font-size:16px}
+.msg small{display:block;text-align:end;font-size:11.5px;color:var(--ink-3);margin-top:2px;font-variant-numeric:tabular-nums}
+.msg.me{justify-self:end;background:var(--bg-4);border:1px solid var(--line-faint)}
+.msg.them{justify-self:start;background:var(--bg);border:1px solid var(--line)}
+.msg.prod{display:grid;grid-template-columns:52px 1fr;gap:10px;align-items:center}
+.msg.prod img{width:52px;height:64px;object-fit:cover;clip-path:url(#arch45)}
+.msg.prod b{color:var(--head);font-weight:500}
+.wa-steps{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:12px;counter-reset:w}
+.wa-steps li{counter-increment:w;position:relative;display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:center;color:var(--ink)}
+.wa-steps li::before{content:"";width:40px;height:40px;border:1px solid var(--mark);transform:rotate(45deg) scale(.74)}
+.wa-steps li::after{content:counter(w);position:absolute;inset-inline-start:0;top:50%;width:40px;transform:translateY(-50%);text-align:center;font-family:var(--f-display);color:var(--gold-text);font-size:21px;line-height:1}
+.wa-steps li span{display:block}
+.wa-txt .btn svg{width:20px;height:20px}
+
+/* ============ reviews ============ */
+.revs{display:grid;grid-auto-flow:column;grid-auto-columns:min(84%,360px);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gutter) 16px;margin-inline:calc(var(--gutter) * -1)}
+.revs>*{scroll-snap-align:center}
+@media (min-width:1000px){.revs{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);overflow:visible;margin:0;padding:0}}
+.rev{border:1px solid var(--line-faint);padding:22px;display:grid;gap:12px;align-content:start;background:var(--bg-2);margin:0}
+.stars{display:flex;gap:4px;color:var(--mark)}
+.stars svg{width:15px;height:15px}
+.stars .off{color:var(--bg-4)}
+.rev blockquote{margin:0;font-size:17px;line-height:1.6;color:var(--ink)}
+.rev figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--ink-2);align-items:center}
+.rev figcaption a{color:var(--gold-text);display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+
+/* ============ maison ============ */
+.maison{display:grid;gap:clamp(28px,5vw,80px);align-items:center}
+.maison-media{position:relative;aspect-ratio:4/5;max-width:520px;width:100%;margin:0 auto}
+.maison-media .clip-a{clip-path:url(#arch45)}
+.maison-media img{width:100%;height:100%;object-fit:cover}
+.maison p{color:var(--ink-2);max-width:52ch}
+.maison .sig{font-family:var(--f-ar-display);font-weight:700;color:var(--mark);font-size:36px;margin:18px 0 0;line-height:1.3}
+@media (min-width:900px){.maison{grid-template-columns:1fr 1fr}}
+
+/* ============ faq ============ */
+.faq{max-width:820px;margin-inline:auto;border-top:1px solid var(--line-faint)}
+.faq details{border-bottom:1px solid var(--line-faint)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;min-height:64px;padding:10px 0;font-size:18px;color:var(--ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary svg{width:16px;height:16px;flex:none;color:var(--mark);transition:transform .35s var(--ease-out)}
+.faq details[open] summary svg{transform:rotate(135deg)}
+.faq details p{margin:0 0 20px;color:var(--ink-2);max-width:66ch}
+.faq-wa{max-width:820px;margin:26px auto 0;display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center;justify-content:space-between;border:1px solid var(--line);padding:16px 18px;background:var(--bg-2)}
+.faq-wa p{margin:0;font-size:17px;color:var(--head);display:flex;gap:10px;align-items:center}
+.faq-wa p svg{width:26px;height:26px;color:var(--mark);flex:none}
+
+/* ============ club ============ */
+.club{position:relative;max-width:760px;margin-inline:auto;text-align:center;padding:clamp(30px,6vw,60px) clamp(18px,5vw,56px);border:1px solid var(--line);background:var(--bg-2)}
+.club::before{content:"";position:absolute;inset:6px;border:1px solid var(--line-faint);pointer-events:none}
+.club .sub{margin:.3em 0 0;font-family:var(--f-display);font-size:clamp(22px,5vw,28px);color:var(--gold-text);line-height:1.25}
+html[lang="ar"] .club .sub{font-family:var(--f-ar-display);font-weight:700}
+.club form{display:grid;gap:10px;margin:22px auto 0;max-width:520px;text-align:start;position:relative}
+.field label{display:block;font-size:15px;color:var(--ink-2);margin-bottom:6px}
+.tel{display:flex;border:1px solid var(--line);background:var(--bg);overflow:hidden}
+.tel:focus-within{border-color:var(--mark);box-shadow:0 0 0 1px var(--mark)}
+.tel .cc{display:grid;place-items:center;padding:0 12px;border-inline-end:1px solid var(--line-faint);color:var(--ink-2);font-variant-numeric:tabular-nums;direction:ltr}
+.club form>*{min-width:0}
+.tel input{flex:1 1 auto;width:0;min-width:0;min-height:52px;background:none;border:0;padding:0 14px;color:var(--ink);font-size:17px;direction:ltr;text-align:left}
+.tel input:focus{outline:none}
+.tel input::placeholder{color:var(--ink-3);opacity:1}
+.tel[data-invalid="true"]{border-color:var(--err)}
+.hint{font-size:13.5px;color:var(--ink-3);margin:6px 0 0}
+.msgline{font-size:15px;min-height:1.4em;margin:0}
+.msgline.err{color:var(--err)}
+.msgline.ok{color:var(--gold-text)}
+@media (min-width:700px){.club form{grid-template-columns:1fr auto;align-items:start}.club form .btn{margin-top:30px}.club .msgline{grid-column:1/-1}}
+
+/* ============ footer (night falls at the end of the page, in both modes) ============ */
+.ftr{border-top:1px solid var(--line);padding-block:56px calc(28px + env(safe-area-inset-bottom));position:relative;overflow:hidden;background:var(--night-2)}
+.ftr-top{display:grid;gap:34px}
+.ftr-brand{display:grid;gap:12px;justify-items:start}
+.lockup{display:grid;gap:8px;justify-items:start;color:var(--gold-hi)}
+.lockup svg.mono{width:60px;height:60px;color:var(--gold)}
+.lockup .wm-l{font-family:var(--f-display);font-size:20px;letter-spacing:.28em;line-height:1}
+.lockup .wm-a{font-family:"Amiri",var(--f-ar-display);font-weight:700;font-size:30px;line-height:1.2;letter-spacing:0}
+.ftr-brand p{margin:0;color:var(--ink-2);max-width:36ch;font-size:15px}
+.social{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 0;padding:0;list-style:none}
+.social a{display:grid;place-items:center;width:46px;height:46px;border:1px solid var(--line);color:var(--gold-hi);transition:background-color .25s,color .25s,border-color .25s}
+.social a svg{width:22px;height:22px}
+.social a:hover,.social a:focus-visible{background:var(--gold);color:var(--night);border-color:var(--gold)}
+.social-h{margin:10px 0 0;font:500 14px/1.3 var(--f-text);color:var(--gold);letter-spacing:.06em}
+html[lang="ar"] .social-h{font-family:var(--f-ar-text);letter-spacing:0;font-size:15px}
+.ftr-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px 20px}
+.ftr h3{margin:0 0 10px;font:500 14px/1.3 var(--f-text);letter-spacing:.06em;color:var(--gold)}
+html[lang="ar"] .ftr h3{font-family:var(--f-ar-text);letter-spacing:0;font-size:15px}
+.ftr ul.l{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.ftr li a{display:inline-flex;min-height:44px;min-width:44px;align-items:center;text-decoration:none;color:var(--ink);font-size:15.5px}
+.ftr li a:hover{color:var(--gold-hi)}
+.ftr-pay{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.ftr-pay>span{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);padding:6px 12px;font-size:14px;color:var(--ink-2)}
+.ftr-pay svg{width:20px;height:20px;color:var(--gold)}
+.ftr-prefs{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-top:26px}
+.seg{display:inline-flex;border:1px solid var(--line)}
+.seg button{min-height:44px;padding:0 14px;background:none;border:0;color:var(--ink-2);cursor:pointer;font-size:14.5px}
+.seg button+button{border-inline-start:1px solid var(--line-faint)}
+.seg button[aria-pressed="true"]{background:var(--gold);color:var(--night)}
+.seg-l{font-size:14px;color:var(--ink-3)}
+.ftr-bottom{margin-top:32px;padding-top:22px;border-top:1px solid var(--line-faint);display:grid;gap:12px;font-size:13.5px;color:var(--ink-3)}
+.ftr-bottom p{margin:0;max-width:90ch}
+.ftr-legal{display:flex;flex-wrap:wrap;gap:4px 18px}
+.ftr-legal a{text-decoration:none;color:var(--ink-2);min-height:44px;display:inline-flex;align-items:center}
+.ftr-big{position:absolute;inset-inline-end:-6%;bottom:-8%;width:min(520px,70vw);opacity:.06;pointer-events:none;color:var(--gold)}
+@media (min-width:900px){.ftr-top{grid-template-columns:1.1fr 2fr}.ftr-cols{grid-template-columns:repeat(4,1fr)}}
+
+/* ============ sheets, dock, toast ============ */
+dialog{padding:0;border:0;background:var(--bg);color:var(--ink);max-width:none;max-height:none}
+dialog::backdrop{background:rgba(5,4,8,.6)}
+.sheet{width:min(440px,100vw);height:100dvh;margin:0;inset-inline-start:0;inset-inline-end:auto;border-inline-end:1px solid var(--line)}
+.sheet.end{margin-inline-start:auto;inset-inline-start:auto;inset-inline-end:0;border-inline-end:0;border-inline-start:1px solid var(--line)}
+dialog[open].sheet{animation:sheet-in .45s var(--ease-out)}
+@keyframes sheet-in{from{transform:translateX(calc(var(--dirx,1) * -24px));opacity:.001}to{transform:none;opacity:1}}
+.sheet.end{--dirx:-1}
+html[dir="rtl"] .sheet{--dirx:-1}
+html[dir="rtl"] .sheet.end{--dirx:1}
+.sheet-in{display:flex;flex-direction:column;height:100%}
+.sheet-head{display:flex;justify-content:space-between;align-items:center;padding-block:10px;padding-inline:var(--gutter) 10px;border-bottom:1px solid var(--line-faint);min-height:64px}
+.sheet-head h2{margin:0;font-family:var(--f-display);font-weight:400;font-size:28px;color:var(--head)}
+html[lang="ar"] .sheet-head h2{font-family:var(--f-ar-display);font-weight:700}
+.sheet-body{flex:1;overflow-y:auto;padding:18px var(--gutter) 24px}
+.search{position:relative;margin-bottom:18px}
+.search input{width:100%;min-height:52px;background:var(--bg-2);border:1px solid var(--line);padding-block:0;padding-inline:44px 14px;font-size:17px;color:var(--ink)}
+.search svg{position:absolute;inset-inline-start:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--mark)}
+.search input:focus{outline:none;border-color:var(--mark)}
+.sres{display:grid;gap:8px;margin-bottom:18px}
+.sres:empty{display:none}
+.row{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;background:var(--bg-2);border:1px solid var(--line-faint);padding:8px;padding-inline-end:10px}
+.row img{width:56px;height:70px;object-fit:cover;clip-path:url(#arch45)}
+.row .rn{font-family:var(--f-display);font-size:22px;color:var(--head);line-height:1.1}
+html[lang="ar"] .row .rn{font-family:var(--f-ar-display);font-weight:700;font-size:20px}
+.row .rt{font-size:14px;color:var(--ink-2);line-height:1.35}
+.row .btn{padding:0 12px}
+.m-big{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px;border:1px solid var(--mark);background:var(--line-faint);text-decoration:none;margin-bottom:18px;min-height:56px}
+.m-big b{font-weight:500;color:var(--head)}
+.m-big svg{width:18px;height:18px;color:var(--mark)}
+.m-gender{display:grid;gap:10px;margin-bottom:20px}
+.m-gender a{display:grid;grid-template-columns:72px 1fr auto;gap:14px;align-items:center;text-decoration:none;border-bottom:1px solid var(--line-faint);padding-bottom:10px}
+.m-gender img{width:72px;height:72px;object-fit:cover;clip-path:url(#arch45)}
+.m-gender span{font-family:var(--f-display);font-size:26px;color:var(--head)}
+html[lang="ar"] .m-gender span{font-family:var(--f-ar-display);font-weight:700}
+.m-gender svg{width:16px;height:16px;color:var(--mark)}
+.m-links{list-style:none;margin:0 0 20px;padding:0}
+.m-links a{display:flex;min-height:48px;align-items:center;text-decoration:none;font-size:17px;border-bottom:1px solid var(--line-faint)}
+.m-wa{display:grid;gap:10px;padding:16px;border:1px solid var(--line-faint);font-size:15px;color:var(--ink-2)}
+.bag-items{display:grid;gap:12px}
+.bag-empty{color:var(--ink-2);text-align:center;padding:24px 0}
+.bi{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;border-bottom:1px solid var(--line-faint);padding-bottom:12px}
+.bi img{width:56px;height:70px;object-fit:cover;clip-path:url(#arch45)}
+.bi .n{color:var(--head);font-size:17px;line-height:1.3}
+.bi .s{font-size:14px;color:var(--ink-2)}
+.qty{display:flex;align-items:center;border:1px solid var(--line)}
+.qty button{width:44px;height:44px;background:none;border:0;cursor:pointer;color:var(--head);font-size:18px}
+.qty span{min-width:20px;text-align:center;font-variant-numeric:tabular-nums}
+.bag-foot{border-top:1px solid var(--line);padding:14px var(--gutter) calc(16px + env(safe-area-inset-bottom));display:grid;gap:10px;background:var(--bg-2)}
+.bag-row{display:flex;justify-content:space-between;font-size:16px}
+.meter-row{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center}
+.meter-row p{margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.4}
+.meter-row p b{color:var(--gold-text);font-weight:500}
+.bag-foot .fine{font-size:13.5px;color:var(--ink-3);margin:0}
+/* the lantern meter: fills with light as the bag nears free delivery */
+.lm{width:30px;height:42px;flex:none;color:var(--mark);overflow:visible}
+.lm .o{fill:none;stroke:currentColor;stroke-width:1.3}
+.lm .f{fill:var(--gold);transition:y .6s var(--ease-out),height .6s var(--ease-out)}
+.lm .h{fill:var(--bg)}
+.lm .sp{fill:var(--gold);opacity:0;transform-origin:15px 25px}
+.lm.full .sp{animation:spark 1.2s var(--ease-out) 1 forwards}
+.lm.full .sp:nth-of-type(2){animation-delay:.12s}
+.lm.full .sp:nth-of-type(3){animation-delay:.24s}
+@keyframes spark{0%{opacity:0;transform:scale(.4)}40%{opacity:1}100%{opacity:.9;transform:scale(1)}}
+.dock{position:fixed;z-index:45;left:0;right:0;bottom:0;padding:8px var(--gutter) calc(8px + env(safe-area-inset-bottom));background:var(--hdr-bg);border-top:1px solid var(--line);display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;transform:translateY(110%);transition:transform .45s var(--ease-out)}
+@supports (backdrop-filter:blur(8px)){.dock{backdrop-filter:blur(8px)}}
+.dock:not(.show){visibility:hidden;transition:transform .45s var(--ease-out),visibility 0s .45s}
+.dock.show{transform:none}
+.dock p{margin:0;font-size:14.5px;line-height:1.3;color:var(--ink-2)}
+.dock p b{display:block;color:var(--head);font-weight:500;font-size:15px}
+.dock .btn{min-height:48px;padding:0 16px;font-size:15px}
+@media (min-width:900px){.dock{left:50%;right:auto;width:560px;transform:translate(-50%,130%);bottom:16px;border:1px solid var(--line);padding:8px 10px 8px 16px}.dock.show{transform:translate(-50%,0)}}
+body.has-dock{padding-bottom:72px}
+.toast{pointer-events:none;position:fixed;left:50%;bottom:calc(var(--dock-h,0px) + 16px + env(safe-area-inset-bottom));transform:translate(-50%,14px);opacity:0;z-index:60;background:var(--bg-2);border:1px solid var(--mark);padding:12px 16px;display:flex;gap:12px;align-items:center;max-width:calc(100vw - 32px);transition:transform .45s var(--ease-out),opacity .3s,bottom .3s;font-size:15px;box-shadow:0 12px 26px -12px rgba(0,0,0,.4)}
+.toast:not(.show){visibility:hidden;transition:transform .45s var(--ease-out),opacity .3s,visibility 0s .45s}
+.toast.show{transform:translate(-50%,0);opacity:1}
+.toast svg{width:18px;height:18px;color:var(--mark);flex:none}
+
+/* ============ motion: masked word reveal on titles + arch lines that draw like a lantern lighting ============ */
+.wm{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.14em;margin-bottom:-.14em}
+html[lang="ar"] .wm{padding-block:.1em .3em;margin-block:-.1em -.3em}
+.wm .w{display:inline-block}
+.js .mr-ready:not(.in) .w{transform:translateY(112%)}
+.js .mr-ready .w{transition:transform .85s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 38ms)}
+.draw{stroke-dasharray:1;stroke-dashoffset:0}
+.js .draw{stroke-dashoffset:1;transition:stroke-dashoffset 2.2s cubic-bezier(.65,0,.35,1);transition-delay:var(--d,0ms)}
+.js .draw.in{stroke-dashoffset:0}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .mq-track{animation:none!important;transform:none!important}
+  .mq-vp{overflow-x:auto;scrollbar-width:none}
+  .mq-btn{display:none}
+  .js .mr-ready:not(.in) .w{transform:none}
+  .js .draw{stroke-dashoffset:0}
+}
+@media (forced-colors:active){.btn{border:1px solid ButtonText}.clip-a{clip-path:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <clipPath id="arch45" clipPathUnits="objectBoundingBox"><path id="p45"/></clipPath>
+    <clipPath id="arch34" clipPathUnits="objectBoundingBox"><path id="p34"/></clipPath>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 1.5l2.6 4.2 4.8-1.1-1.1 4.8 4.2 2.6-4.2 2.6 1.1 4.8-4.8-1.1L12 22.5l-2.6-4.2-4.8 1.1 1.1-4.8L1.5 12l4.2-2.6-1.1-4.8 4.8 1.1z" fill="currentColor"/></symbol>
+    <symbol id="i-star-line" viewBox="0 0 24 24"><path d="M12 1.5l2.6 4.2 4.8-1.1-1.1 4.8 4.2 2.6-4.2 2.6 1.1 4.8-4.8-1.1L12 22.5l-2.6-4.2-4.8 1.1 1.1-4.8L1.5 12l4.2-2.6-1.1-4.8 4.8 1.1z" fill="none" stroke="currentColor" stroke-width="1.2"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-lantern" viewBox="0 0 24 24"><path d="M12 1.5v2.2M8.2 8.2L12 3.7l3.8 4.5z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="7.6" y="8.2" width="8.8" height="11.3" rx=".6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M6.8 21h10.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M12 11l.8 1.3 1.4-.3-.3 1.4 1.3.8-1.3.8.3 1.4-1.4-.3L12 17.4l-.8-1.3-1.4.3.3-1.4-1.3-.8 1.3-.8-.3-1.4 1.4.3z" fill="currentColor"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h12M3 17h18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9 10V6.5a3 3 0 016 0V10" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 16 16"><path d="M5 3v10M11 3v10" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 16 16"><path d="M4.5 2.8v10.4L13 8z" fill="currentColor"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 32 32"><path d="M6 25.5l1.6-4.6A10.5 10.5 0 1116 26.5c-1.9 0-3.7-.5-5.2-1.4L6 25.5z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M12 13.5h8M12 17.5h5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 32 32"><path d="M3 9h15v13H3zM18 13h6l5 5v4h-11z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><circle cx="9" cy="23.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="23" cy="23.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="16" cy="16" r="3.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M7 13v6M25 13v6" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 32 32"><path d="M6 12h18l-4-4M26 20H8l4 4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bottle" viewBox="0 0 32 32"><rect x="12.5" y="4" width="7" height="5" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="8" y="10" width="16" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 18h16" stroke="currentColor" stroke-width="1.3"/></symbol>
+    <!-- social: drawn in the same 1.4 hairline as the rest of the icon set -->
+    <symbol id="s-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="s-tt" viewBox="0 0 24 24"><path d="M13.5 3.5v11.2a3.3 3.3 0 11-3.3-3.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M13.5 3.5c.3 2.7 2.2 4.6 5 4.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="s-fb" viewBox="0 0 24 24"><path d="M14.2 20.5v-7.3h2.5l.4-2.9h-2.9V8.5c0-.9.3-1.4 1.5-1.4h1.5V4.5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.1H8.8v2.9h2.5v7.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="s-sc" viewBox="0 0 24 24"><path d="M12 3.6c-3 0-5 2.2-5 5v2.3c-.6.1-1.3-.4-1.7 0-.4.5.6 1.2 1.6 1.6-.4 1.3-1.6 2.9-3.4 3.5.2.8 1.4.8 2 1.1.2.5.1 1.2.6 1.3.7.1 1.5-.4 2.7.1 1 .4 1.8 1.9 3.2 1.9s2.2-1.5 3.2-1.9c1.2-.5 2-0 2.7-.1.5-.1.4-.8.6-1.3.6-.3 1.8-.3 2-1.1-1.8-.6-3-2.2-3.4-3.5 1-.4 2-1.1 1.6-1.6-.4-.4-1.1.1-1.7 0V8.6c0-2.8-2-5-5-5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></symbol>
+    <symbol id="s-yt" viewBox="0 0 24 24"><rect x="2.8" y="5.8" width="18.4" height="12.4" rx="3.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.2 9.3v5.4l4.7-2.7z" fill="currentColor"/></symbol>
+    <symbol id="s-wa" viewBox="0 0 24 24"><path d="M4.2 20l1.1-3.6A8.3 8.3 0 1112 20.3c-1.5 0-2.9-.4-4.1-1.1L4.2 20z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.2 8.4c.3-.3.8-.3 1 .1l.7 1.4c.1.3 0 .6-.2.8l-.5.5c.5 1.1 1.4 2 2.5 2.6l.5-.5c.2-.2.5-.3.8-.2l1.4.6c.4.2.5.7.2 1-.6.8-1.5 1.1-2.4.8a7.6 7.6 0 01-4.7-4.6c-.3-.9 0-1.8.7-2.5z" fill="currentColor"/></symbol>
+    <symbol id="mono" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="1.1">
+        <rect x="13" y="13" width="38" height="38"/>
+        <rect x="13" y="13" width="38" height="38" transform="rotate(45 32 32)"/>
+        <path d="M24.5 44V30.5c0-4.6 3.3-8.6 7.5-10.2 4.2 1.6 7.5 5.6 7.5 10.2V44"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+<a class="skip" href="#main" data-t="skip">Aller au contenu</a>
+
+<!-- MOVING BAR (from concept 10, in Layali's night): reverses in RTL, stops under reduced motion, pausable -->
+<div class="mq night" id="mq" role="region" data-t-aria="annLabel" aria-label="Informations de commande et de livraison">
+  <ul class="vh" id="mq-sr"></ul>
+  <div class="mq-vp" aria-hidden="true"><div class="mq-track" id="mq-track"></div></div>
+  <button class="mq-btn" id="mq-btn" type="button" data-t-aria="mqPause" aria-label="Mettre le bandeau en pause" aria-pressed="false"><svg aria-hidden="true"><use href="#i-pause"/></svg></button>
+</div>
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <div class="hdr-start">
+      <button class="ib menu-btn" type="button" data-open="menu" data-t-aria="menu" aria-label="Menu"><svg aria-hidden="true"><use href="#i-menu"/></svg></button>
+      <nav class="nav" data-t-aria="navLabel" aria-label="Navigation principale">
+        <a href="#portes" data-t="navMen" data-tab-link="men">Homme</a>
+        <a href="#portes" data-t="navWomen" data-tab-link="women">Femme</a>
+        <a href="#portes" data-t="navUnisex" data-tab-link="unisex">Mixte</a>
+        <a href="#carte" data-t="navCarte">La carte</a>
+      </nav>
+    </div>
+    <a class="logo" href="#main" data-t-aria="logoLabel" aria-label="Maison Harman, accueil">
+      <svg class="mono" aria-hidden="true"><use href="#mono"/></svg>
+      <span class="wordmark" aria-hidden="true">MAISON HARMAN</span>
+      <span class="wordmark-ar" lang="ar" aria-hidden="true">دار حرمان</span>
+    </a>
+    <div class="hdr-end">
+      <nav class="nav" data-t-aria="navLabel2" aria-label="Navigation secondaire">
+        <a href="#moment" data-t="navMoment">Pour quel moment ?</a>
+        <a href="#trio" data-t="navTrio">Composer un trio</a>
+      </nav>
+      <button class="ib d-only" type="button" data-open="menu" data-focus="search" data-t-aria="search" aria-label="Rechercher"><svg aria-hidden="true"><use href="#i-search"/></svg></button>
+      <button class="lang" type="button" data-lang-toggle data-t-aria="langToggle" aria-label="Afficher la page en arabe"><span class="fr on">FR</span><span aria-hidden="true">|</span><span class="ar" lang="ar">ع</span></button>
+      <button class="ib theme-btn" type="button" data-theme-toggle aria-label="Passer en mode jour"><svg class="sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="star" aria-hidden="true"><use href="#i-lantern"/></svg></button>
+      <button class="ib" type="button" data-open="bag" data-t-aria="bagLabel" aria-label="Ouvrir le panier"><svg aria-hidden="true"><use href="#i-bag"/></svg><span class="count" data-count data-n="0">0</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO. Media slot is video-ready: set data-video (and optionally data-video-day / -d / -d-day) on #hero-media; see BRIEF.md -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-media" id="hero-media" data-video="" data-video-day="" data-video-d="" data-video-d-day="">
+      <div class="hero-frame">
+        <picture id="hero-pic">
+          <source data-scheme="light" data-mq="(min-width:900px)" data-src-ltr="img/lanterne-day-d-ltr.webp" data-src-rtl="img/lanterne-day-d-rtl.webp" media="(min-width:900px) and (prefers-color-scheme: light)" srcset="img/lanterne-day-d-ltr.webp" width="1800" height="1000">
+          <source data-scheme="dark" data-mq="(min-width:900px)" data-src-ltr="img/layali-hero-d-ltr.webp" data-src-rtl="img/layali-hero-d-rtl.webp" media="(min-width:900px)" srcset="img/layali-hero-d-ltr.webp" width="1800" height="1000">
+          <source data-scheme="light" data-mq="" media="(prefers-color-scheme: light)" srcset="img/lanterne-day-m.webp" width="900" height="1400">
+          <img id="hero-img" src="img/layali-hero-m.webp" width="900" height="1400" alt="" fetchpriority="high">
+        </picture>
+        <button class="video-ctl" id="video-ctl" type="button" hidden aria-label="Mettre la vidéo en pause"><svg width="14" height="14" aria-hidden="true"><use href="#i-pause"/></svg></button>
+        <span class="sample tag-sample" data-t="samplePhoto">Image d'exemple</span>
+        <div class="hot" id="hot">
+          <button class="hot-btn" type="button" aria-expanded="false" aria-controls="hot-panel">
+            <span class="hot-label"><b data-hot-name>Layali · N° 203</b><span data-hot-price></span></span>
+            <svg class="hot-chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+          </button>
+          <div class="hot-panel" id="hot-panel" hidden></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap hero-copy"><div class="hc">
+      <h1 class="disp" id="hero-title" data-mr>Un parfum pour chaque nuit</h1>
+      <p class="lede" data-t="heroSub">Parfums homme, femme et mixte, inspirés des grandes familles olfactives. En 30, 50 ou 100 ml.</p>
+      <div class="hero-ctas">
+        <a class="btn lit" href="#demandes" data-t="heroCta1">Voir les plus demandés</a>
+        <a class="btn btn-line" href="#moment" data-t="heroCta2">Choisir par moment</a>
+      </div>
+      <ul class="reassure">
+        <li><svg aria-hidden="true"><use href="#i-cash"/></svg><span data-t="rs1">Paiement à la livraison</span></li>
+        <li><svg aria-hidden="true"><use href="#i-truck"/></svg><span data-th="rs2">Livraison offerte dès 200 DH</span></li>
+        <li><svg aria-hidden="true"><use href="#i-swap"/></svg><span data-t="rs3">Échange sous 7 jours</span></li>
+      </ul>
+    </div></div>
+  </section>
+
+  <!-- DOORS: the three universes, each opens its shelf below -->
+  <section class="sec" id="portes" aria-labelledby="doors-title" style="padding-top:clamp(36px,7vw,90px);padding-bottom:clamp(30px,5vw,60px)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="doors-title" data-t="doorsTitle" data-mr>Choisissez votre univers</h2>
+        <div class="rule" aria-hidden="true"><svg><use href="#i-star-line"/></svg></div>
+      </div>
+      <div class="doors" id="doors"></div>
+    </div>
+  </section>
+
+  <!-- BEST SELLERS with sizes -->
+  <section class="sec" id="demandes" aria-labelledby="best-title" style="padding-top:clamp(30px,5vw,60px);background:linear-gradient(180deg,transparent,var(--bg-2) 25%,var(--bg-2) 75%,transparent)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="best-title" data-t="bestTitle" data-mr>Les plus demandés</h2>
+        <p class="lede" id="best-sub" data-t="bestSub">Ceux qu'on nous commande le plus souvent.</p>
+      </div>
+      <div class="chiprow" role="tablist" id="tabs" data-t-aria="tabsLabel" aria-label="Sélection"></div>
+      <div class="rail" id="rail" role="tabpanel" aria-labelledby="best-title" tabindex="-1"></div>
+      <p class="more-row"><span class="sample" data-t="priceSample">Prix d'exemple, en attendant la grille définitive</span></p>
+    </div>
+  </section>
+
+  <!-- TARIF (from concept 05) + duos -->
+  <section class="sec" id="tarif" aria-labelledby="tarif-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="tarif-title" data-t="tarifTitle" data-mr>Le tarif de la Maison</h2>
+        <p class="lede" data-t="tarifSub">Trois tailles, un prix clair, le même pour 13 parfums sur 15.</p>
+      </div>
+      <div class="sizes3" id="sizes3"></div>
+      <div class="tar-fine"><p id="tar-oud"></p><p><span class="sample" data-t="priceSample">Prix d'exemple, en attendant la grille définitive</span></p></div>
+      <ul class="promise">
+        <li class="key"><svg aria-hidden="true"><use href="#i-truck"/></svg><b data-th="tDel1t">Livraison offerte dès 200 DH</b><span data-th="tDel1p"></span></li>
+        <li><svg aria-hidden="true"><use href="#i-cash"/></svg><b data-t="tDel2t">Paiement à la livraison</b><span data-t="tDel2p">En espèces, à la porte. Rien à payer en ligne.</span></li>
+        <li><svg aria-hidden="true"><use href="#i-swap"/></svg><b data-t="tDel3t">Échange sous 7 jours</b><span data-t="tDel3p">Tant que le flacon est scellé.</span></li>
+        <li><svg aria-hidden="true"><use href="#i-chat"/></svg><b data-t="tDel4t">Conseil sur WhatsApp</b><span data-t="tDel4p">Une personne de la Maison vous répond.</span></li>
+      </ul>
+      <div class="duos-h"><h3 data-t="duoTitle">Les duos</h3><p data-t="duoSub">Deux parfums qui vont ensemble. À deux, la livraison est pour nous.</p></div>
+      <div class="duos" id="duos"></div>
+    </div>
+  </section>
+
+  <!-- MOMENT (06 "Pour quel moment ?" + 04 "Pour le jour, pour le soir", merged) -->
+  <section class="sec" id="moment" aria-labelledby="mom-title" style="background:linear-gradient(180deg,transparent,var(--bg-2) 30%,var(--bg-2) 80%,transparent)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="mom-title" data-t="momTitle" data-mr>Pour quel moment ?</h2>
+        <p class="lede" data-t="momSub">Le jour, des parfums clairs. Le soir, des parfums profonds.</p>
+      </div>
+      <div role="group" aria-labelledby="tod-legend">
+        <p class="tod-legend" id="tod-legend" data-t="todLegend">Pour le jour, pour le soir</p>
+        <div class="tod" id="tod">
+          <button class="tod-btn" type="button" data-tod="day" aria-pressed="true"><span class="tod-img"><img src="img/lanterne-day-m.webp" width="900" height="1400" alt="" loading="lazy" decoding="async"></span><span class="tod-l"><svg aria-hidden="true"><use href="#i-sun"/></svg><span data-t="day">Le jour</span></span></button>
+          <button class="tod-btn" type="button" data-tod="night" aria-pressed="false"><span class="tod-img"><img src="img/layali-hero-m.webp" width="900" height="1400" alt="" loading="lazy" decoding="async"></span><span class="tod-l"><svg aria-hidden="true"><use href="#i-lantern"/></svg><span data-t="night">Le soir</span></span></button>
+        </div>
+      </div>
+      <div class="mom-pane day" id="mom-pane" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- LA CARTE (06 "La carte du comptoir") + "Choisissez par matière" (08) -->
+  <section class="sec" id="carte" aria-labelledby="carte-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="carte-title" data-t="carteTitle" data-mr>La carte de la Maison</h2>
+        <p class="lede" data-t="carteSub">Les quinze parfums sur une seule carte, comme au comptoir. Touchez un prix : le flacon va dans votre panier.</p>
+      </div>
+      <h3 class="mats-h" id="mats-h" data-t="matTitle">Choisissez par matière</h3>
+      <div class="mats" id="mats" role="group" aria-labelledby="mats-h"></div>
+      <div class="carte" id="carte-card"></div>
+    </div>
+  </section>
+
+  <!-- TRIO (from concept 10) -->
+  <section class="sec" id="trio" aria-labelledby="trio-title" style="background:linear-gradient(180deg,transparent,var(--bg-2) 30%,var(--bg-2) 80%,transparent)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="trio-title" data-t="trioTitle" data-mr>Votre trio en 3 tapotements</h2>
+        <p class="lede" data-t="trioSub">Touchez trois parfums. Trois flacons de 30 ml, rangés dans un coffret, 10 % moins cher qu'à l'unité.</p>
+      </div>
+      <div class="trio">
+        <div style="display:grid;gap:4px">
+          <div class="slots" id="slots" aria-live="polite"></div>
+          <p class="trio-msg" id="trio-msg" aria-live="polite"></p>
+        </div>
+        <div class="trio-bar" id="trio-bar"></div>
+        <div class="picker" id="picker" role="group" data-t-aria="trioPick" aria-label="Choisir les parfums du trio"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP ORDER (from concept 10) -->
+  <section class="sec" id="whatsapp" aria-labelledby="wa-title">
+    <div class="wrap wa">
+      <div class="phone">
+        <div class="ph-top"><svg aria-hidden="true"><use href="#mono"/></svg><div><b>Maison Harman</b><span data-t="waStatus">Une personne de la Maison</span></div><span class="sample" data-t="waSample">Exemple</span></div>
+        <div class="msgs" id="msgs"></div>
+      </div>
+      <div class="wa-txt">
+        <h2 class="disp h2" id="wa-title" data-t="waTitle" data-mr>Commandez comme vous écrivez à un proche.</h2>
+        <p class="lede" data-t="waSub">Envoyez le numéro du parfum. On confirme le prix, la ville et le jour de livraison, puis vous payez à la porte.</p>
+        <ol class="wa-steps"><li><span data-t="waS1">Vous écrivez le numéro, par exemple 203.</span></li><li><span data-t="waS2">On confirme avec vous la taille, le prix et l'adresse.</span></li><li><span data-t="waS3">Livré en 2 à 4 jours, vous payez à la réception.</span></li></ol>
+        <a class="btn lit" id="wa-big" href="https://wa.me/212600000000" rel="noopener"><svg aria-hidden="true"><use href="#s-wa"/></svg><span data-t="waCta">Écrire à la Maison</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS (samples) -->
+  <section class="sec" id="avis" aria-labelledby="rev-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="disp h2" id="rev-title" data-t="revTitle" data-mr>Ce qu'en disent nos clients</h2>
+        <span class="sample" data-t="revSample">Avis d'exemple, en attendant la publication des avis de nos clients</span>
+      </div>
+      <div class="revs" id="revs"></div>
+    </div>
+  </section>
+
+  <!-- LA MAISON -->
+  <section class="sec" id="maison" aria-labelledby="maison-title" style="background:var(--bg-2)">
+    <div class="wrap maison">
+      <figure class="maison-media" style="margin:0">
+        <div class="clip-a"><picture><source data-scheme="light" data-mq="" media="(prefers-color-scheme: light)" srcset="img/lanterne-day-lantern.webp"><img src="img/layali-lantern.webp" width="1200" height="1500" loading="lazy" decoding="async" alt="" data-t-alt="maisonAlt"></picture></div>
+        <svg class="arch-line" viewBox="0 0 100 125" preserveAspectRatio="none" aria-hidden="true"><path class="draw" pathLength="1" data-arch="125"/></svg>
+      </figure>
+      <div>
+        <h2 class="disp h2" id="maison-title" data-t="maisonTitle" data-mr>Derrière chaque flacon, une maison attentive</h2>
+        <p data-t="maisonText">Nous choisissons chaque composition, lui donnons un nom et un numéro, et répondons nous-mêmes à vos messages.</p>
+        <p data-t="maisonText2">Nos noms viennent des nuits d'ici : la veillée, le jasmin des terrasses en été, le safran des grandes fêtes. Le jour, la même lanterne laisse passer le soleil.</p>
+        <p class="sig" lang="ar" aria-hidden="true">دار حرمان</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + "Pas trouvé ?" WhatsApp line -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="disp h2" id="faq-title" data-t="faqTitle" data-mr>Vos questions</h2></div>
+      <div class="faq" id="faq-list"></div>
+      <div class="faq-wa"><p><svg aria-hidden="true"><use href="#s-wa"/></svg><span data-t="faqWa">Pas trouvé ? Écrivez-nous sur WhatsApp, on répond.</span></p><a class="btn btn-line btn-sm" id="faq-wa-btn" href="https://wa.me/212600000000" rel="noopener" data-t="faqWaCta">Écrire sur WhatsApp</a></div>
+    </div>
+  </section>
+
+  <!-- CLUB WHATSAPP (from concept 10) -->
+  <section class="sec" id="club" aria-labelledby="club-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="club">
+        <h2 class="disp h2" id="club-title" data-t="clubTitle" data-mr>Le Club WhatsApp</h2>
+        <p class="sub" data-t="clubSub">Les nouveautés, avant tout le monde.</p>
+        <p class="lede" style="margin-inline:auto" data-t="clubText">Nouveaux parfums et coffrets de saison, par message. Répondez « stop » pour arrêter.</p>
+        <form id="club-form" novalidate>
+          <div class="field">
+            <label for="club-phone" data-t="clubLabel">Votre numéro WhatsApp</label>
+            <div class="tel" id="tel"><span class="cc" aria-hidden="true">+212</span><input id="club-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="06 12 34 56 78" aria-describedby="club-hint club-msg"></div>
+            <p class="hint" id="club-hint" data-t="clubHint">Uniquement pour vous écrire sur WhatsApp.</p>
+          </div>
+          <button class="btn lit" type="submit" data-t="clubBtn">Rejoindre le club</button>
+          <p class="msgline" id="club-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr night">
+  <svg class="ftr-big" viewBox="0 0 64 64" aria-hidden="true"><use href="#mono"/></svg>
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <div class="lockup" role="img" aria-label="Maison Harman, دار حرمان">
+          <svg class="mono" aria-hidden="true"><use href="#mono"/></svg>
+          <span class="wm-l" aria-hidden="true">MAISON HARMAN</span>
+          <span class="wm-a" lang="ar" aria-hidden="true">دار حرمان</span>
+        </div>
+        <p data-t="ftrTag">Des parfums inspirés des grandes familles olfactives, choisis avec soin et livrés chez vous.</p>
+        <h3 class="social-h" id="social-h" data-t="fSocial">Suivez la Maison</h3>
+        <ul class="social" id="social" aria-labelledby="social-h"></ul>
+      </div>
+      <div class="ftr-cols">
+        <div><h3 data-t="fShop">Parfums</h3><ul class="l"><li><a href="#portes" data-t="navMen" data-tab-link="men">Homme</a></li><li><a href="#portes" data-t="navWomen" data-tab-link="women">Femme</a></li><li><a href="#portes" data-t="navUnisex" data-tab-link="unisex">Mixte</a></li><li><a href="#carte" data-t="navCarte">La carte</a></li><li><a href="#trio" data-t="navTrio">Composer un trio</a></li></ul></div>
+        <div><h3 data-t="fHelp">Aide</h3><ul class="l"><li><a href="#faq" data-t="fFaq">Questions fréquentes</a></li><li><a href="#tarif" data-t="fDelivery">Livraison et retours</a></li><li><a href="#tarif" data-t="navTarif">Le tarif de la Maison</a></li></ul></div>
+        <div><h3 data-t="fHouse">La Maison</h3><ul class="l"><li><a href="#maison" data-t="navAbout">La Maison</a></li><li><a href="#avis" data-t="fReviews">Avis</a></li><li><a href="#club" data-t="fClub">Le Club WhatsApp</a></li></ul></div>
+        <div><h3 data-t="fContact">Nous joindre</h3><ul class="l"><li><a href="https://wa.me/212600000000" rel="noopener" data-t="fWa">WhatsApp</a></li><li><a href="tel:+212600000000"><bdi dir="ltr">06 00 00 00 00</bdi></a></li><li><a href="mailto:contact@maisonharman.ma">contact@maisonharman.ma</a></li></ul></div>
+      </div>
+    </div>
+    <div class="ftr-pay"><span><svg aria-hidden="true"><use href="#i-cash"/></svg><span data-t="fPay">Paiement en espèces à la livraison</span></span><span><svg aria-hidden="true"><use href="#i-truck"/></svg><span data-th="fShip">Livraison partout au Maroc, offerte dès 200 DH</span></span><span><svg aria-hidden="true"><use href="#i-swap"/></svg><span data-t="fSealed">Flacon scellé, échange sous 7 jours</span></span></div>
+    <div class="ftr-prefs">
+      <button class="lang" type="button" data-lang-toggle data-t-aria="langToggle" aria-label="Afficher la page en arabe" style="border:1px solid var(--line);padding-inline:12px"><span class="fr on">Français</span><span aria-hidden="true">|</span><span class="ar" lang="ar">العربية</span></button>
+      <span class="seg-l" id="seg-l" data-t="fTheme">Affichage</span>
+      <div class="seg" role="group" aria-labelledby="seg-l" id="theme-seg">
+        <button type="button" data-theme-set="auto" aria-pressed="true" data-t="themeAuto">Comme l'appareil</button>
+        <button type="button" data-theme-set="light" aria-pressed="false" data-t="themeDay">Jour</button>
+        <button type="button" data-theme-set="dark" aria-pressed="false" data-t="themeNight">Nuit</button>
+      </div>
+    </div>
+    <div class="ftr-bottom">
+      <p data-t="fIndep">Maison Harman est une maison indépendante. Nos parfums portent nos propres noms et ne sont pas des produits d'autres marques.</p>
+      <div class="ftr-legal"><a href="#" data-t="fTerms">Conditions générales de vente</a><a href="#" data-t="fPrivacy">Confidentialité et cookies</a><a href="#" data-t="fLegal">Mentions légales</a></div>
+      <p><span data-t="fCopy">© 2026 Maison Harman</span> · <span data-t="fConcept">Layali v2 « Lanterne » · aperçu : produits, prix, photos et avis d'exemple.</span></p>
+    </div>
+  </div>
+</footer>
+
+<dialog id="menu" class="sheet" data-t-aria="menu" aria-label="Menu">
+  <div class="sheet-in">
+    <div class="sheet-head"><h2 data-t="menu">Menu</h2><div style="display:flex;align-items:center"><button class="lang" type="button" data-lang-toggle data-t-aria="langToggle" aria-label="Afficher la page en arabe"><span class="fr on">FR</span><span aria-hidden="true">|</span><span class="ar" lang="ar">ع</span></button><button class="ib" type="button" data-close data-t-aria="close" aria-label="Fermer"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div></div>
+    <div class="sheet-body">
+      <div class="search" role="search">
+        <label class="vh" for="q" data-t="searchLabel">Rechercher un parfum</label>
+        <svg aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="q" type="search" autocomplete="off" data-t-ph="searchPh" placeholder="Un nom, une note, un numéro…">
+      </div>
+      <div class="sres" id="sres" aria-live="polite"></div>
+      <a class="m-big" href="#moment" data-close><b data-t="navMoment">Pour quel moment ?</b><svg class="flip" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <div class="m-gender" id="m-gender"></div>
+      <ul class="m-links"><li><a href="#carte" data-close data-t="navCarte">La carte</a></li><li><a href="#trio" data-close data-t="navTrio">Composer un trio</a></li><li><a href="#tarif" data-close data-t="navTarif">Le tarif de la Maison</a></li><li><a href="#maison" data-close data-t="navAbout">La Maison</a></li><li><a href="#faq" data-close data-t="fFaq">Questions fréquentes</a></li></ul>
+      <div class="m-wa"><span data-t="menuWa">Une question avant de choisir ? Nous répondons sur WhatsApp.</span><a class="btn btn-line btn-sm" href="https://wa.me/212600000000" rel="noopener" data-t="menuWaCta">Écrire sur WhatsApp</a></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="bag" class="sheet end" data-t-aria="bagTitle" aria-label="Votre panier">
+  <div class="sheet-in">
+    <div class="sheet-head"><h2 data-t="bagTitle">Votre panier</h2><button class="ib" type="button" data-close data-t-aria="close" aria-label="Fermer"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div>
+    <div class="sheet-body"><div class="bag-items" id="bag-items"></div></div>
+    <div class="bag-foot" id="bag-foot"></div>
+  </div>
+</dialog>
+
+<div class="dock" id="dock" aria-hidden="true">
+  <span id="dock-lm"></span>
+  <p id="dock-txt"></p>
+  <button class="btn lit" type="button" data-open="bag" id="dock-btn" tabindex="-1"></button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><svg aria-hidden="true"><use href="#i-check"/></svg><span></span></div>
+
+<script>
+const DATA = {"products":[{"id":"mh-001","number":"101","slug":"atlas","gender":"men","family":"woody-aromatic","badges":["bestseller"],"intensity":3,"sprays":2,"moments":["office","day"],"seasons":["spring","autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","lavender"],"heart":["geranium","sage"],"base":["tonka","cedarwood"]},"name":{"fr":"Atlas","ar":"أطلس"},"tag":{"fr":"Lavande et cèdre, l'assurance tranquille","ar":"خزامى وأرز بثقة هادئة"},"tip":{"fr":"Deux vaporisations sur la nuque avant le bureau ; en hiver, une de plus sur l'écharpe.","ar":"رشّتان على العنق قبل العمل، وفي الشتاء رشّة إضافية على الوشاح."}},{"id":"mh-002","number":"102","slug":"horizon","gender":"men","family":"fresh-spicy","badges":["bestseller"],"intensity":4,"sprays":3,"moments":["day","evening"],"seasons":["spring","summer","autumn"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","pink-pepper"],"heart":["lavender","black-pepper"],"base":["amberwood","cedarwood"]},"name":{"fr":"Horizon","ar":"أفق"},"tag":{"fr":"Une fraîcheur poivrée de grand air","ar":"نسمة متبّلة من هواء طلق"},"tip":{"fr":"Par forte chaleur, vaporisez la chemise plutôt que la peau : la fraîcheur poivrée reste plus nette.","ar":"في حرّ الصيف، رشّه على القميص بدل الجلد، فتبقى نضارته المتبّلة أوضح."}},{"id":"mh-003","number":"103","slug":"kasbah","gender":"men","family":"amber-oriental","badges":["bestseller"],"intensity":4,"sprays":2,"moments":["evening","celebration"],"seasons":["autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["mandarin","grapefruit"],"heart":["cinnamon","rose"],"base":["leather","amber"]},"name":{"fr":"Kasbah","ar":"قصبة"},"tag":{"fr":"Cannelle et cuir pour les soirs d'hiver","ar":"قرفة وجلد لليالي الشتاء"},"tip":{"fr":"Les soirs d'hiver, deux vaporisations sur le torse, sous la chemise : la chaleur du corps fait le reste.","ar":"في أمسيات الشتاء، رشّتان على الصدر تحت القميص، وحرارة الجسم تتكفّل بالباقي."}},{"id":"mh-004","number":"104","slug":"oasis","gender":"men","family":"citrus-aromatic","badges":["new"],"intensity":2,"sprays":4,"moments":["day","office"],"seasons":["spring","summer"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["lemon","mint","bergamot"],"heart":["rosemary","marine-notes"],"base":["vetiver","white-musk"]},"name":{"fr":"Oasis","ar":"واحة"},"tag":{"fr":"Citron et menthe à l'ombre","ar":"ليمون ونعناع في الظل"},"tip":{"fr":"Quatre vaporisations sur peau propre en sortant du hammam ; par grosse chaleur, gardez le 50 ml dans votre sac pour midi.","ar":"أربع رشّات على بشرة نظيفة بعد الحمّام، وفي الأيام الحارة احمل عبوة 50 مل في حقيبتك لتجديده عند الظهر."}},{"id":"mh-005","number":"105","slug":"caravane","gender":"men","family":"oud","badges":[],"intensity":5,"sprays":2,"moments":["evening","celebration"],"seasons":["autumn","winter"],"sizes":[[30,169],[50,249],[100,349]],"notes":{"top":["cardamom","black-pepper"],"heart":["oud","incense"],"base":["leather","patchouli"]},"name":{"fr":"Caravane","ar":"قافلة"},"tag":{"fr":"L'oud épicé des longues routes","ar":"عود متبّل من دروب بعيدة"},"tip":{"fr":"Deux vaporisations suffisent. Pour l'Aïd ou une grande soirée, une sur le col de la djellaba, une au poignet.","ar":"رشّتان تكفيان. في العيد أو سهرة كبيرة، واحدة على ياقة الجلابة وأخرى على المعصم."}},{"id":"mh-006","number":"201","slug":"yasmine","gender":"women","family":"floral","badges":["bestseller"],"intensity":3,"sprays":3,"moments":["evening","celebration"],"seasons":["spring","summer"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","orange-blossom"],"heart":["jasmine","tuberose"],"base":["sandalwood","white-musk"]},"name":{"fr":"Yasmine","ar":"ياسمين"},"tag":{"fr":"Le jasmin des nuits d'été","ar":"ياسمين ليالي الصيف"},"tip":{"fr":"Pour une soirée d'été ou un henné, vaporisez de loin sur les cheveux : le jasmin suit chaque mouvement.","ar":"في سهرة صيفية أو ليلة حنّاء، رشّيه على شعرك من بعيد، فيلحق الياسمين كل حركة."}},{"id":"mh-007","number":"202","slug":"riad","gender":"women","family":"floral-fruity","badges":["new"],"intensity":2,"sprays":3,"moments":["day","office"],"seasons":["spring","summer"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["pear","mandarin"],"heart":["rose","peony"],"base":["white-musk","cedarwood"]},"name":{"fr":"Riad","ar":"رياض"},"tag":{"fr":"Un jardin de roses en plein jour","ar":"حديقة ورد في وضح النهار"},"tip":{"fr":"Le matin, deux vaporisations sur les poignets et une sur le foulard : léger au bureau, joli au déjeuner.","ar":"في الصباح، رشّتان على المعصمين وواحدة على الوشاح: خفيف في العمل وجميل عند الغداء."}},{"id":"mh-008","number":"203","slug":"layali","gender":"women","family":"gourmand","badges":["bestseller"],"intensity":4,"sprays":2,"moments":["evening","celebration"],"seasons":["autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["almond","orange-blossom"],"heart":["honey","praline"],"base":["vanilla","tonka"]},"name":{"fr":"Layali","ar":"ليالي"},"tag":{"fr":"Amande et miel pour la veillée","ar":"لوز وعسل لسهرات طويلة"},"tip":{"fr":"Pour les soirées de Ramadan, une ou deux vaporisations après le ftour suffisent ; il accompagne le thé et les longues conversations.","ar":"في سهرات رمضان، رشّة أو رشّتان بعد الفطور تكفي، يرافقك مع الشاي والأحاديث الطويلة."}},{"id":"mh-009","number":"204","slug":"kohl","gender":"women","family":"amber-oriental","badges":[],"intensity":4,"sprays":2,"moments":["evening"],"seasons":["autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["plum","pink-pepper"],"heart":["rose","patchouli"],"base":["amber","incense"]},"name":{"fr":"Kohl","ar":"كحل"},"tag":{"fr":"Rose sombre et encens, de près","ar":"ورد داكن وبخور عن قرب"},"tip":{"fr":"Une vaporisation sur la nuque, une sur le poignet. Pas plus : il est fait pour être deviné de près.","ar":"رشّة على مؤخرة العنق وأخرى على المعصم، وهذا يكفي، فهو عطر يُكتشف عن قرب."}},{"id":"mh-010","number":"205","slug":"soie","gender":"women","family":"musky","badges":[],"intensity":2,"sprays":3,"moments":["day","office"],"seasons":["spring","summer","autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","pink-pepper"],"heart":["iris","peony"],"base":["white-musk","sandalwood"]},"name":{"fr":"Soie","ar":"حرير"},"tag":{"fr":"Iris et musc, comme une seconde peau","ar":"سوسن ومسك كبشرة ثانية"},"tip":{"fr":"Portez-le juste après votre crème hydratante : le musc tient mieux sur une peau nourrie.","ar":"ضعيه بعد الكريم المرطّب، فالمسك يدوم أكثر على بشرة مرطّبة."}},{"id":"mh-011","number":"301","slug":"nour","gender":"unisex","family":"musky","badges":["new"],"intensity":2,"sprays":4,"moments":["day","office"],"seasons":["spring","summer"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","lemon"],"heart":["white-tea","jasmine"],"base":["white-musk","cedarwood"]},"name":{"fr":"Nour","ar":"نور"},"tag":{"fr":"Thé blanc et musc, tout en lumière","ar":"شاي أبيض ومسك يفيضان نورًا"},"tip":{"fr":"L'été, rangez le flacon loin de la fenêtre et de la voiture : la chaleur abîme les notes fraîches.","ar":"في الصيف، احفظوا القارورة بعيدًا عن النافذة والسيارة، فالحرارة تُفسد النفحات المنعشة."}},{"id":"mh-012","number":"302","slug":"safran","gender":"unisex","family":"oud","badges":["bestseller"],"intensity":5,"sprays":1,"moments":["evening","celebration"],"seasons":["autumn","winter"],"sizes":[[30,169],[50,249],[100,349]],"notes":{"top":["saffron","pink-pepper"],"heart":["rose","incense"],"base":["oud","amber"]},"name":{"fr":"Safran","ar":"زعفران"},"tag":{"fr":"Safran et oud pour les grands soirs","ar":"زعفران وعود للمناسبات الكبرى"},"tip":{"fr":"Une seule vaporisation sur le caftan ou le costume, le soir d'un mariage : cet oud prend son temps.","ar":"رشّة واحدة على القفطان أو البدلة ليلة العرس، فهذا العود يستقر على مهل."}},{"id":"mh-013","number":"303","slug":"mirage","gender":"unisex","family":"amber-oriental","badges":[],"intensity":4,"sprays":2,"moments":["evening"],"seasons":["autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","cardamom"],"heart":["benzoin","labdanum"],"base":["amber","vanilla"]},"name":{"fr":"Mirage","ar":"سراب"},"tag":{"fr":"Un ambre chaud qui ondoie","ar":"عنبر دافئ يتلألأ"},"tip":{"fr":"Par temps froid, vaporisez votre manteau ou votre écharpe en laine : l'ambre s'accroche à la laine.","ar":"في الأيام الباردة، رشّوه على المعطف أو الوشاح الصوفي، فالعنبر يتشبّث بالصوف."}},{"id":"mh-014","number":"304","slug":"zahr","gender":"unisex","family":"citrus-aromatic","badges":[],"intensity":2,"sprays":3,"moments":["day"],"seasons":["spring","summer"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["mandarin","petitgrain"],"heart":["orange-blossom","neroli"],"base":["white-musk","vetiver"]},"name":{"fr":"Zahr","ar":"زهر"},"tag":{"fr":"La fleur d'oranger, fraîche et ensoleillée","ar":"زهر البرتقال منعشًا ومشمسًا"},"tip":{"fr":"Trois vaporisations avant de sortir, comme l'eau de fleur d'oranger qu'on verse sur les mains des invités.","ar":"ثلاث رشّات قبل الخروج، كماء الزهر الذي يُرَشّ على أيدي الضيوف."}},{"id":"mh-015","number":"305","slug":"thuya","gender":"unisex","family":"woody-aromatic","badges":["new"],"intensity":3,"sprays":2,"moments":["day","office","evening"],"seasons":["spring","autumn","winter"],"sizes":[[30,129],[50,199],[100,299]],"notes":{"top":["bergamot","black-pepper"],"heart":["cypress","incense"],"base":["vetiver","cedarwood"]},"name":{"fr":"Thuya","ar":"عرعار"},"tag":{"fr":"Cyprès et bois sec, sans détour","ar":"سرو وأخشاب جافة بخطوط واضحة"},"tip":{"fr":"Au bureau, une vaporisation sur la poitrine et une sur le pull : boisé et net, il respecte les espaces partagés.","ar":"في العمل، رشّة على الصدر وأخرى على الكنزة: خشبي ونظيف، لا يزعج من حولكم."}}],"t":{"fr":{"notes":{"almond":"Amande","amber":"Ambre","amberwood":"Bois ambrés","benzoin":"Benjoin","bergamot":"Bergamote","black-pepper":"Poivre noir","cardamom":"Cardamome","cedarwood":"Bois de cèdre","cinnamon":"Cannelle","cypress":"Cyprès","geranium":"Géranium","grapefruit":"Pamplemousse","honey":"Miel","incense":"Encens","iris":"Iris","jasmine":"Jasmin","labdanum":"Labdanum","lavender":"Lavande","leather":"Cuir","lemon":"Citron","mandarin":"Mandarine","marine-notes":"Notes marines","mint":"Menthe","neroli":"Néroli","orange-blossom":"Fleur d'oranger","oud":"Oud","patchouli":"Patchouli","pear":"Poire","peony":"Pivoine","petitgrain":"Petit-grain","pink-pepper":"Poivre rose","plum":"Prune","praline":"Praliné","rose":"Rose","rosemary":"Romarin","saffron":"Safran","sage":"Sauge","sandalwood":"Bois de santal","tonka":"Fève tonka","tuberose":"Tubéreuse","vanilla":"Vanille","vetiver":"Vétiver","white-musk":"Musc blanc","white-tea":"Thé blanc"},"family":{"woody-aromatic":"Boisé aromatique","fresh-spicy":"Frais épicé","amber-oriental":"Ambré","floral":"Floral","floral-fruity":"Floral fruité","gourmand":"Gourmand","citrus-aromatic":"Agrumes aromatiques","oud":"Oud","musky":"Musqué"},"familyText":{"woody-aromatic":"Lavande, herbes et bois secs. Net et rassurant.","fresh-spicy":"Agrumes et poivres. Vif, propre, plein d'énergie.","amber-oriental":"Ambre, épices et résines. Chaud et enveloppant.","floral":"Fleurs blanches et rose. Lumineux et généreux.","floral-fruity":"Fruits juteux et fleurs tendres. Frais et souriant.","gourmand":"Vanille, miel et amande. Doux et réconfortant.","citrus-aromatic":"Agrumes, herbes et air marin. Léger et lumineux.","oud":"Oud, encens et cuir. Profond et noble.","musky":"Musc blanc et notes poudrées. Propre et intime."},"gender":{"men":"Homme","women":"Femme","unisex":"Mixte"},"badge":{"bestseller":"Le plus demandé","new":"Nouveau","limited":"Édition limitée"},"moment":{"day":"Journée","evening":"Soirée","office":"Bureau","celebration":"Fêtes et mariages"},"intensity":{"1":"Très légère","2":"Légère","3":"Modérée","4":"Soutenue","5":"Intense","scale":"{level} sur 5"},"faq":{"inspired":{"q":"Qu'est-ce qu'un parfum inspiré ?","a":"C'est un parfum qui reprend un grand style de la parfumerie, c'est-à-dire une famille et des accords que vous aimez, et le compose avec sa propre formule. Chez Maison Harman, chaque parfum porte notre nom, un numéro, et ses notes sont décrites honnêtement. Ce n'est pas un produit d'une autre marque. Nous ne donnons pas de pourcentage de ressemblance : chaque formule et chaque peau sont différentes."},"payment":{"q":"Comment payer ?","a":"En espèces, à la livraison. Vous ne payez rien en ligne."},"delivery":{"q":"Quels sont les délais et les frais de livraison ?","a":"Nous livrons partout au Maroc en {minDays} à {maxDays} jours ouvrés après confirmation. La livraison coûte {fee}, et elle est offerte dès {amount} d'achat."},"lasting":{"q":"Combien de temps le parfum tient-il ?","a":"Cela dépend de la famille, de votre peau et de la chaleur. Les boisés, les ambrés et l'oud restent en général plus longtemps que les parfums frais. Pour prolonger, vaporisez sur une peau hydratée et sur les vêtements."},"exchange":{"q":"Puis-je échanger ou retourner un parfum ?","a":"Oui, dans les {days} jours qui suivent la réception, si le flacon est encore scellé. Si un flacon arrive abîmé, envoyez-nous une photo sur WhatsApp et nous le remplaçons."},"choose":{"q":"Comment choisir sans sentir ?","a":"Partez d'un parfum que vous aimez déjà porter : sa famille (frais, boisé, ambré, floral, gourmand) est le meilleur indice. Choisissez par moment ou par matière, commencez par un 30 ml, et nous vous conseillons aussi sur WhatsApp."}},"finder":{"q1":{"title":"Pour qui est ce parfum ?","options":{"men":"Pour lui","women":"Pour elle","unisex":"À partager","any":"Peu importe"}},"q2":{"title":"Quelle odeur vous attire ?","options":{"fresh":{"label":"Frais","hint":"Agrumes, menthe, air marin"},"woody":{"label":"Boisé","hint":"Cèdre, vétiver, oud"},"warm":{"label":"Chaud et ambré","hint":"Ambre, vanille, épices"},"floral":{"label":"Fleuri","hint":"Jasmin, rose, fleur d'oranger"},"sweet":{"label":"Gourmand","hint":"Vanille, miel, amande"}}},"q3":{"title":"Quand sera-t-il porté ?","options":{"day":"En journée","evening":"Le soir","both":"Les deux"}},"result":{"lead":"D'après vos réponses, voici les parfums à essayer en premier.","advice":"Un deuxième avis ? Écrivez-nous sur WhatsApp"}},"contactIntro":"Un conseil, une commande, une question sur une livraison : écrivez-nous, une personne de la Maison vous répond."},"ar":{"notes":{"almond":"لوز","amber":"عنبر","amberwood":"أخشاب عنبرية","benzoin":"جاوي","bergamot":"برغموت","black-pepper":"فلفل أسود","cardamom":"هيل","cedarwood":"خشب الأرز","cinnamon":"قرفة","cypress":"سرو","geranium":"جيرانيوم","grapefruit":"جريب فروت","honey":"عسل","incense":"بخور","iris":"سوسن","jasmine":"ياسمين","labdanum":"لادن","lavender":"خزامى","leather":"جلد","lemon":"ليمون","mandarin":"يوسفي","marine-notes":"نفحات بحرية","mint":"نعناع","neroli":"نيرولي","orange-blossom":"زهر البرتقال","oud":"عود","patchouli":"باتشولي","pear":"إجاص","peony":"فاوانيا","petitgrain":"أوراق البرتقال المرّ","pink-pepper":"فلفل وردي","plum":"برقوق","praline":"برالين","rose":"ورد","rosemary":"إكليل الجبل","saffron":"زعفران","sage":"مريمية","sandalwood":"خشب الصندل","tonka":"حبوب التونكا","tuberose":"مسك الروم","vanilla":"فانيليا","vetiver":"فيتيفر","white-musk":"مسك أبيض","white-tea":"شاي أبيض"},"family":{"woody-aromatic":"خشبي عطري","fresh-spicy":"منعش متبّل","amber-oriental":"عنبري شرقي","floral":"زهري","floral-fruity":"زهري فاكهي","gourmand":"حلو شهيّ","citrus-aromatic":"حمضي عطري","oud":"عود","musky":"مسكي"},"familyText":{"woody-aromatic":"خزامى وأعشاب وأخشاب جافة. نظيف ومطمئن.","fresh-spicy":"حمضيات وفلفل. حيوي ونظيف ومليء بالطاقة.","amber-oriental":"عنبر وتوابل وراتنجات. دافئ يلفّ صاحبه.","floral":"زهور بيضاء وورد. مشرق وسخيّ.","floral-fruity":"فواكه عصيرية وزهور رقيقة. منعش ومبتسم.","gourmand":"فانيليا وعسل ولوز. ناعم ومريح.","citrus-aromatic":"حمضيات وأعشاب ونسيم بحري. خفيف ومشرق.","oud":"عود وبخور وجلد. عميق ونبيل.","musky":"مسك أبيض ونفحات بودرية. نظيف وحميم."},"gender":{"men":"رجالي","women":"نسائي","unisex":"للجنسين"},"badge":{"bestseller":"الأكثر طلبًا","new":"جديد","limited":"إصدار محدود"},"moment":{"day":"النهار","evening":"المساء","office":"العمل","celebration":"الأعراس والمناسبات"},"intensity":{"1":"خفيفة جدًا","2":"خفيفة","3":"معتدلة","4":"قوية","5":"قوية جدًا","scale":"{level} من 5"},"faq":{"inspired":{"q":"ما هو العطر المستوحى؟","a":"هو عطر يستلهم أسلوبًا كبيرًا في عالم العطور، أي عائلة عطرية وتناغمات تحبونها، ويُركَّب بتركيبته الخاصة. في دار حرمان، يحمل كل عطر اسمنا ورقمًا خاصًا به، ونصف نفحاته بصدق. ليس منتجًا لعلامة تجارية أخرى. ولا نعطي نسبة تشابه، لأن كل تركيبة وكل بشرة تختلف عن الأخرى."},"payment":{"q":"كيف أدفع؟","a":"نقدًا عند الاستلام. لا تدفعون أي شيء عبر الإنترنت."},"delivery":{"q":"ما هي مدة التوصيل وتكلفته؟","a":"نوصل إلى كل مدن المغرب خلال {minDays} إلى {maxDays} أيام عمل بعد التأكيد. تكلفة التوصيل {fee}، وهو مجاني ابتداءً من {amount}."},"lasting":{"q":"كم يدوم العطر؟","a":"يتوقف ذلك على العائلة العطرية وعلى بشرتكم وعلى الحرارة. العطور الخشبية والعنبرية والعود تدوم عادة أطول من العطور المنعشة. ولإطالة بقائه، رشّوه على بشرة مرطّبة وعلى الملابس."},"exchange":{"q":"هل يمكنني استبدال العطر أو إرجاعه؟","a":"نعم، خلال {days} أيام من الاستلام، ما دامت القارورة مغلقة لم تُفتح. وإن وصلتكم قارورة متضررة، أرسلوا لنا صورة على واتساب ونستبدلها لكم."},"choose":{"q":"كيف أختار دون أن أشمّ العطر؟","a":"انطلقوا من عطر تحبون وضعه: عائلته (منعشة، خشبية، عنبرية، زهرية، حلوة) هي أفضل دليل. اختاروا حسب المناسبة أو المادة، أو ابدؤوا بقارورة 30 مل، ونقدّم لكم النصيحة أيضًا على واتساب."}},"finder":{"q1":{"title":"لمن هذا العطر؟","options":{"men":"له","women":"لها","unisex":"للمشاركة","any":"لا يهم"}},"q2":{"title":"أي رائحة تجذبكم؟","options":{"fresh":{"label":"منعشة","hint":"حمضيات، نعناع، نسيم البحر"},"woody":{"label":"خشبية","hint":"أرز، فيتيفر، عود"},"warm":{"label":"دافئة وعنبرية","hint":"عنبر، فانيليا، توابل"},"floral":{"label":"زهرية","hint":"ياسمين، ورد، زهر البرتقال"},"sweet":{"label":"حلوة","hint":"فانيليا، عسل، لوز"}}},"q3":{"title":"متى سيُستعمل هذا العطر؟","options":{"day":"في النهار","evening":"في المساء","both":"الاثنان معًا"}},"result":{"lead":"بناءً على أجوبتكم، هذه العطور التي ننصحكم بتجربتها أولًا.","advice":"تريدون رأيًا ثانيًا؟ راسلونا على واتساب"}},"contactIntro":"نصيحة، طلب، أو سؤال عن التوصيل: راسلونا، ويجيبكم شخص من الدار."}},"reviews":[{"p":"mh-006","rating":5,"name":{"fr":"Salma","ar":"سلمى"},"city":{"fr":"Casablanca","ar":"الدار البيضاء"},"text":{"fr":"Porté au henné de ma cousine, plusieurs amies m'ont demandé son nom. Appel de confirmation très poli avant l'envoi.","ar":"وضعته في حنّاء ابنة خالتي، وسألتني عن اسمه أكثر من صديقة. واتصلوا بي بلطف لتأكيد الطلب قبل الإرسال."}},{"p":"mh-001","rating":5,"name":{"fr":"Youssef","ar":"يوسف"},"city":{"fr":"Rabat","ar":"الرباط"},"text":{"fr":"C'est devenu mon parfum de bureau. Frais le matin, boisé l'après-midi, et il ne dérange pas mes collègues.","ar":"أصبح عطري للعمل. منعش في الصباح، خشبي بعد الظهر، ولا يزعج زملائي في المكتب."}},{"p":"mh-008","rating":5,"name":{"fr":"Imane","ar":"إيمان"},"city":{"fr":"Marrakech","ar":"مراكش"},"text":{"fr":"Doux sans être lourd. Parfait pour les soirées de Ramadan, ma mère me l'a déjà emprunté deux fois.","ar":"حلو دون أن يكون ثقيلًا. مثالي لسهرات رمضان، وأمي استعارته مني مرتين."}},{"p":"mh-002","rating":4,"name":{"fr":"Hamza","ar":"حمزة"},"city":{"fr":"Tanger","ar":"طنجة"},"text":{"fr":"Très frais, je l'aime beaucoup. En plein été, je remets une vaporisation à midi. Le 50 ml tient dans la poche.","ar":"منعش وأحببته كثيرًا. في عزّ الصيف أضيف رشّة عند الظهر، وعبوة 50 مل تدخل في الجيب."}},{"p":"mh-011","rating":5,"name":{"fr":"Khadija","ar":"خديجة"},"city":{"fr":"Agadir","ar":"أكادير"},"text":{"fr":"Je cherchais une odeur de propre, c'est exactement ça. Je le partage avec mon mari.","ar":"كنت أبحث عن رائحة النظافة، وهذا ما وجدته. نتقاسمه أنا وزوجي."}},{"p":"mh-005","rating":4,"name":{"fr":"Mehdi","ar":"مهدي"},"city":{"fr":"Fès","ar":"فاس"},"text":{"fr":"Oud puissant, une seule vaporisation suffit. J'aurais aimé un plus petit format pour l'essayer d'abord.","ar":"عود قوي، تكفي رشّة واحدة. كنت أتمنى حجمًا أصغر لتجربته أولًا."}}],"site":{"delivery":{"country":"MA","minDays":2,"maxDays":4,"fee":30,"freeThreshold":200},"returns":{"exchangeDays":7,"condition":"sealed"},"contact":{"phone":"+212600000000","phoneDisplay":"06 00 00 00 00","whatsapp":"+212600000000","whatsappLink":"https://wa.me/212600000000","email":"contact@maisonharman.ma","address":""}}};
+</script>
+<script>
+(() => {
+'use strict';
+document.documentElement.classList.add('js');
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const P = DATA.products, T = DATA.t, SITE = DATA.site;
+const byId = Object.fromEntries(P.map(p => [p.id, p]));
+const bySlug = Object.fromEntries(P.map(p => [p.slug, p]));
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let lang = 'fr';
+
+const UI = {
+fr: {
+ skip:"Aller au contenu", annLabel:"Informations de commande et de livraison", mqPause:"Mettre le bandeau en pause", mqPlay:"Relancer le bandeau",
+ mq1:"Paiement à la livraison", mq2:"Livraison offerte dès {free}", mq3:"Partout au Maroc en 2 à 4 jours", mq4:"Commandez sur WhatsApp", mq5:"30, 50 ou 100 ml", mq6:"Échange sous 7 jours",
+ menu:"Menu", search:"Rechercher", bagLabel:"Ouvrir le panier", langToggle:"Afficher la page en arabe", themeToDay:"Passer en mode jour", themeToNight:"Passer en mode nuit", logoLabel:"Maison Harman, accueil", navLabel:"Navigation principale", navLabel2:"Navigation secondaire", close:"Fermer",
+ navMen:"Homme", navWomen:"Femme", navUnisex:"Mixte", navCarte:"La carte", navMoment:"Pour quel moment ?", navTrio:"Composer un trio", navAbout:"La Maison", navTarif:"Le tarif de la Maison",
+ heroTitleNight:"Un parfum pour chaque nuit", heroTitleDay:"Un parfum pour chaque jour", heroSub:"Parfums homme, femme et mixte, inspirés des grandes familles olfactives. En 30, 50 ou 100 ml.", heroCta1:"Voir les plus demandés", heroCta2:"Choisir par moment",
+ heroAltNight:"Un flacon Maison Harman dans une niche en arc, éclairé par une lanterne ajourée qui dessine des étoiles dorées sur le mur", heroAltDay:"Un flacon Maison Harman dans une niche en arc sur un mur ivoire, où le soleil dessine les étoiles de la lanterne", samplePhoto:"Image d'exemple", videoPause:"Mettre la vidéo en pause", videoPlay:"Lire la vidéo",
+ rs1:"Paiement à la livraison", rs2:"Livraison offerte dès {free}", rs3:"Échange sous 7 jours", hotOpen:"Voir les tailles de Layali",
+ doorsTitle:"Choisissez votre univers", doorCount:"{n} parfums",
+ bestTitle:"Les plus demandés", bestSub:"Ceux qu'on nous commande le plus souvent.", newSub:"Les dernières créations de la Maison.", genSub:"Tous les parfums de cet univers.", tabsLabel:"Sélection", tabBest:"Les plus demandés", tabNew:"Nouveautés",
+ sizeLegend:"Taille", add:"Ajouter au panier", addShort:"Ajouter", addPrice:"Ajouter · {price}", addSize:"Ajouter {ml} ml · {price}", from:"Dès {price}", freeShip:"Livraison offerte", priceSample:"Prix d'exemple, en attendant la grille définitive",
+ tarifTitle:"Le tarif de la Maison", tarifSub:"Trois tailles, un prix clair, le même pour 13 parfums sur 15.", t30:"Pour essayer", t50:"Pour tous les jours", t100:"Le meilleur prix au ml", perMl:"{p} DH le ml", tarOud:"<b>Caravane et Safran, nos deux ouds :</b> {a} · {b} · {c}.",
+ tDel1t:"Livraison offerte dès {free}", tDel1p:"En dessous, {fee}. Un 100 ml, deux 30 ml ou un trio suffisent.", tDel2t:"Paiement à la livraison", tDel2p:"En espèces, à la porte. Rien à payer en ligne.", tDel3t:"Échange sous 7 jours", tDel3p:"Tant que le flacon est scellé.", tDel4t:"Conseil sur WhatsApp", tDel4p:"Une personne de la Maison vous répond.",
+ duoTitle:"Les duos", duoSub:"Deux parfums qui vont ensemble. À deux, la livraison est pour nous.", d1:"Le jour et la nuit", d2:"Pour lui, pour elle", d3:"Les deux ouds", duoAdd:"Ajouter les deux · {price}",
+ momTitle:"Pour quel moment ?", momSub:"Le jour, des parfums clairs. Le soir, des parfums profonds.", todLegend:"Pour le jour, pour le soir", day:"Le jour", night:"Le soir", dayLead:"Frais, propres, faciles au bureau et sous le soleil.", nightLead:"Ambrés, boisés et oud, pour les dîners, les fêtes et les mariages.",
+ m_office:"Au bureau", m_day:"En journée", m_summer:"L'été", m_evening:"Les soirées", m_celebration:"Fêtes et mariages", m_winter:"L'hiver", momCount:"{n} parfums", momLabel:"Moment",
+ carteTitle:"La carte de la Maison", carteSub:"Les quinze parfums sur une seule carte, comme au comptoir. Touchez un prix : le flacon va dans votre panier.", matTitle:"Choisissez par matière", matAll:"Toutes", mat_amber:"Ambre et miel", mat_wood:"Bois et oud", mat_spice:"Épices", mat_flower:"Fleurs", mat_citrus:"Agrumes", mat_musk:"Musc et encens", carteCount:"{n} parfums sur la carte", carteAdd:"Ajouter {name}, {ml} ml, {price}", carteFoot:"Les trois prix d'une ligne : 30 ml, 50 ml et 100 ml.",
+ trioTitle:"Votre trio en 3 tapotements", trioSub:"Touchez trois parfums. Trois flacons de 30 ml, rangés dans un coffret, 10 % moins cher qu'à l'unité.", trioSlot:"Case {n}", trioEmpty:"À choisir", trioLeft:"Encore {n} à choisir", trioReady:"Votre trio est prêt", trioAdd:"Ajouter le trio", trioAddP:"Ajouter le trio · {price}", trioReset:"Tout vider", trioRm:"Retirer", trioRmL:"Retirer {name} du trio", trioPick:"Choisir les parfums du trio", trioFull:"Trois parfums déjà choisis : retirez-en un pour changer.", trioName:"Trio", trioOffer:"Offre d'exemple",
+ waTitle:"Commandez comme vous écrivez à un proche.", waSub:"Envoyez le numéro du parfum. On confirme le prix, la ville et le jour de livraison, puis vous payez à la porte.", waS1:"Vous écrivez le numéro, par exemple 203.", waS2:"On confirme avec vous la taille, le prix et l'adresse.", waS3:"Livré en 2 à 4 jours, vous payez à la réception.", waCta:"Écrire à la Maison", waStatus:"Une personne de la Maison", waSample:"Exemple",
+ c1:"Salam, je voudrais le 203 en 50 ml.", c2:"Avec plaisir. Layali N° 203, 50 ml : 199 DH. Livraison 30 DH (offerte dès 200 DH), jeudi à Casablanca, paiement à la livraison. On confirme ?", c3:"Oui, merci.", c4:"C'est noté. Le livreur vous appelle avant de passer.",
+ revTitle:"Ce qu'en disent nos clients", revSample:"Avis d'exemple, en attendant la publication des avis de nos clients", revAbout:"À propos de {name}", rating:"{n} sur 5", example:"Exemple",
+ maisonTitle:"Derrière chaque flacon, une maison attentive", maisonText:"Nous choisissons chaque composition, lui donnons un nom et un numéro, et répondons nous-mêmes à vos messages.", maisonText2:"Nos noms viennent des nuits d'ici : la veillée, le jasmin des terrasses en été, le safran des grandes fêtes. Le jour, la même lanterne laisse passer le soleil.", maisonAltNight:"Une lanterne de laiton ajourée projette des étoiles dorées sur un mur sombre, près d'une niche où repose un flacon", maisonAltDay:"La même lanterne de laiton, éteinte, près d'une niche ivoire où le soleil dessine des étoiles",
+ faqTitle:"Vos questions", faqWa:"Pas trouvé ? Écrivez-nous sur WhatsApp, on répond.", faqWaCta:"Écrire sur WhatsApp", faqSizeQ:"Quelle taille choisir ?", faqSizeA:"Le 30 ml pour essayer ou le glisser dans le sac, le 50 ml pour tous les jours, le 100 ml quand vous l'avez adopté : c'est le meilleur prix au ml.",
+ clubTitle:"Le Club WhatsApp", clubSub:"Les nouveautés, avant tout le monde.", clubText:"Nouveaux parfums et coffrets de saison, par message. Répondez « stop » pour arrêter.", clubLabel:"Votre numéro WhatsApp", clubHint:"Uniquement pour vous écrire sur WhatsApp.", clubBtn:"Rejoindre le club", clubErr:"Ce numéro semble incomplet. Exemple : 06 12 34 56 78.", clubOk:"Bienvenue au club. (Aperçu : aucun numéro n'est envoyé ni enregistré.)",
+ ftrTag:"Des parfums inspirés des grandes familles olfactives, choisis avec soin et livrés chez vous.", fSocial:"Suivez la Maison", socialSoon:"{name} de Maison Harman (compte bientôt en ligne)", fShop:"Parfums", fHelp:"Aide", fFaq:"Questions fréquentes", fDelivery:"Livraison et retours", fHouse:"La Maison", fReviews:"Avis", fClub:"Le Club WhatsApp", fContact:"Nous joindre", fWa:"WhatsApp", fPay:"Paiement en espèces à la livraison", fShip:"Livraison partout au Maroc, offerte dès {free}", fSealed:"Flacon scellé, échange sous 7 jours", fTheme:"Affichage", themeAuto:"Comme l'appareil", themeDay:"Jour", themeNight:"Nuit",
+ fIndep:"Maison Harman est une maison indépendante. Nos parfums portent nos propres noms et ne sont pas des produits d'autres marques.", fTerms:"Conditions générales de vente", fPrivacy:"Confidentialité et cookies", fLegal:"Mentions légales", fCopy:"© 2026 Maison Harman", fConcept:"Layali v2 « Lanterne » · aperçu : produits, prix, photos et avis d'exemple.",
+ searchLabel:"Rechercher un parfum", searchPh:"Un nom, une note, un numéro…", searchNone:"Aucun parfum ne correspond. Essayez « ambre » ou « jasmin ».", menuWa:"Une question avant de choisir ? Nous répondons sur WhatsApp.", menuWaCta:"Écrire sur WhatsApp",
+ bagTitle:"Votre panier", bagEmpty:"Votre panier est vide. Commencez par les plus demandés.", subtotal:"Sous-total", delivery:"Livraison", free:"Offerte", toFree:"Plus que <b>{amount}</b> pour la livraison offerte.", freeOk:"<b>La livraison vous est offerte.</b>", checkout:"Commander · paiement à la livraison", checkoutNote:"Aperçu : la commande n'est pas encore active.", waBag:"Commander sur WhatsApp", codNote:"Vous payez en espèces à la livraison, partout au Maroc.",
+ added:"{name} est dans votre panier", less:"Un de moins", more:"Un de plus", sizeMl:"{ml} ml", dockTo:"Plus que {amount}", dockToSub:"pour la livraison offerte", dockFree:"Livraison offerte", dockFreeSub:"Paiement à la livraison", dockView:"Panier · {price}",
+ title:"Maison Harman · Parfums au Maroc dès 129 DH"
+},
+ar: {
+ skip:"الانتقال إلى المحتوى", annLabel:"معلومات الطلب والتوصيل", mqPause:"إيقاف الشريط مؤقتًا", mqPlay:"تشغيل الشريط",
+ mq1:"الدفع عند الاستلام", mq2:"توصيل مجاني ابتداءً من {free}", mq3:"إلى كل مدن المغرب خلال 2 إلى 4 أيام", mq4:"اطلبوا عبر واتساب", mq5:"30 أو 50 أو 100 مل", mq6:"الاستبدال خلال 7 أيام",
+ menu:"القائمة", search:"بحث", bagLabel:"فتح السلة", langToggle:"عرض الصفحة بالفرنسية", themeToDay:"التبديل إلى وضع النهار", themeToNight:"التبديل إلى وضع الليل", logoLabel:"دار حرمان، الصفحة الرئيسية", navLabel:"التنقل الرئيسي", navLabel2:"تنقل إضافي", close:"إغلاق",
+ navMen:"رجالي", navWomen:"نسائي", navUnisex:"للجنسين", navCarte:"قائمة الدار", navMoment:"لأي مناسبة؟", navTrio:"تكوين علبة ثلاثية", navAbout:"عن الدار", navTarif:"تسعيرة الدار",
+ heroTitleNight:"لكلّ ليلةٍ عطرُها", heroTitleDay:"لكلّ يومٍ عطرُه", heroSub:"عطور رجالية ونسائية وللجنسين، مستوحاة من كبرى العائلات العطرية، بحجم 30 أو 50 أو 100 مل.", heroCta1:"الأكثر طلبًا", heroCta2:"الاختيار حسب المناسبة",
+ heroAltNight:"قارورة من دار حرمان في كوّة مقوّسة، يضيئها فانوس مثقوب يرسم نجومًا ذهبية على الجدار", heroAltDay:"قارورة من دار حرمان في كوّة مقوّسة على جدار عاجي، وضوء الشمس يرسم عليه نجوم الفانوس", samplePhoto:"صورة توضيحية", videoPause:"إيقاف الفيديو مؤقتًا", videoPlay:"تشغيل الفيديو",
+ rs1:"الدفع عند الاستلام", rs2:"توصيل مجاني ابتداءً من {free}", rs3:"الاستبدال خلال 7 أيام", hotOpen:"عرض أحجام ليالي",
+ doorsTitle:"اختاروا عالمكم", doorCount:"{n} عطور",
+ bestTitle:"الأكثر طلبًا", bestSub:"العطور التي تُطلب منا أكثر من غيرها.", newSub:"أحدث إبداعات الدار.", genSub:"كل عطور هذا العالم.", tabsLabel:"المختارات", tabBest:"الأكثر طلبًا", tabNew:"الجديد",
+ sizeLegend:"الحجم", add:"إضافة إلى السلة", addShort:"إضافة", addPrice:"إضافة · {price}", addSize:"إضافة {ml} مل · {price}", from:"ابتداءً من {price}", freeShip:"توصيل مجاني", priceSample:"أسعار على سبيل المثال، في انتظار التسعيرة النهائية",
+ tarifTitle:"تسعيرة الدار", tarifSub:"ثلاثة أحجام وسعر واضح، وهو نفسه لثلاثة عشر عطرًا من خمسة عشر.", t30:"للتجربة", t50:"لكل يوم", t100:"أفضل سعر للمل", perMl:"{p} د.م. للمل", tarOud:"<b>قافلة وزعفران، عطرا العود لدينا:</b> {a} · {b} · {c}.",
+ tDel1t:"توصيل مجاني ابتداءً من {free}", tDel1p:"وتحت هذا المبلغ {fee}. تكفي قارورة 100 مل، أو قارورتان من 30 مل، أو علبة ثلاثية.", tDel2t:"الدفع عند الاستلام", tDel2p:"نقدًا عند الباب، دون أي دفع عبر الإنترنت.", tDel3t:"الاستبدال خلال 7 أيام", tDel3p:"ما دامت القارورة مغلقة.", tDel4t:"نصيحة على واتساب", tDel4p:"يجيبكم شخص من الدار.",
+ duoTitle:"الثنائيات", duoSub:"عطران يتكاملان. وبعطرين، التوصيل علينا.", d1:"النهار والليل", d2:"له ولها", d3:"عطرا العود", duoAdd:"إضافة العطرين · {price}",
+ momTitle:"لأي مناسبة؟", momSub:"في النهار عطور صافية، وفي المساء عطور عميقة.", todLegend:"للنهار، وللمساء", day:"النهار", night:"المساء", dayLead:"منعشة ونظيفة، سهلة في العمل وتحت الشمس.", nightLead:"عنبرية وخشبية وعود، للعشاء والمناسبات والأعراس.",
+ m_office:"العمل", m_day:"النهار", m_summer:"الصيف", m_evening:"السهرات", m_celebration:"الأعراس والمناسبات", m_winter:"الشتاء", momCount:"{n} عطور", momLabel:"المناسبة",
+ carteTitle:"قائمة الدار", carteSub:"العطور الخمسة عشر في قائمة واحدة، كما في المنضدة. المسوا سعرًا فتذهب القارورة إلى سلتكم.", matTitle:"اختاروا حسب المادة", matAll:"الكل", mat_amber:"العنبر والعسل", mat_wood:"الخشب والعود", mat_spice:"التوابل", mat_flower:"الزهور", mat_citrus:"الحمضيات", mat_musk:"المسك والبخور", carteCount:"{n} عطور في القائمة", carteAdd:"إضافة {name}، {ml} مل، {price}", carteFoot:"أسعار كل سطر: 30 مل، و50 مل، و100 مل.",
+ trioTitle:"علبتكم الثلاثية في 3 لمسات", trioSub:"المسوا ثلاثة عطور: ثلاث قوارير من 30 مل في علبة واحدة، بسعر أقل بـ 10% من سعرها بالقطعة.", trioSlot:"الخانة {n}", trioEmpty:"للاختيار", trioLeft:"بقي {n} للاختيار", trioReady:"علبتكم جاهزة", trioAdd:"إضافة العلبة", trioAddP:"إضافة العلبة · {price}", trioReset:"إفراغ الكل", trioRm:"إزالة", trioRmL:"إزالة {name} من العلبة", trioPick:"اختيار عطور العلبة", trioFull:"اخترتم ثلاثة عطور: أزيلوا واحدًا لتغييره.", trioName:"علبة ثلاثية", trioOffer:"عرض على سبيل المثال",
+ waTitle:"اطلبوا كما تكتبون لشخص عزيز.", waSub:"أرسلوا رقم العطر. نؤكد معكم السعر والمدينة ويوم التوصيل، ثم تدفعون عند الباب.", waS1:"تكتبون رقم العطر، مثلًا 203.", waS2:"نؤكد معكم الحجم والسعر والعنوان.", waS3:"يصلكم خلال 2 إلى 4 أيام، وتدفعون عند الاستلام.", waCta:"مراسلة الدار", waStatus:"شخص من الدار", waSample:"مثال",
+ c1:"السلام عليكم، أريد رقم 203 بحجم 50 مل.", c2:"بكل سرور. ليالي رقم 203، حجم 50 مل: 199 د.م. التوصيل 30 د.م. (مجاني ابتداءً من 200 د.م.)، يوم الخميس إلى الدار البيضاء، والدفع عند الاستلام. هل نؤكد الطلب؟", c3:"نعم، شكرًا.", c4:"تم التسجيل. سيتصل بكم عامل التوصيل قبل وصوله.",
+ revTitle:"ماذا يقول زبائننا", revSample:"آراء على سبيل المثال، إلى حين نشر آراء زبائننا", revAbout:"عن {name}", rating:"{n} من 5", example:"مثال",
+ maisonTitle:"وراء كل قارورة دار تهتم بالتفاصيل", maisonText:"نختار كل تركيبة، ونمنحها اسمًا ورقمًا، ونرد بأنفسنا على رسائلكم.", maisonText2:"أسماؤنا من ليالي هذه الأرض: السهرة، وياسمين السطوح في الصيف، وزعفران الأفراح الكبرى. وفي النهار، يمرّر الفانوس نفسه ضوء الشمس.", maisonAltNight:"فانوس نحاسي مثقوب يرسم نجومًا ذهبية على جدار داكن، قرب كوّة فيها قارورة", maisonAltDay:"الفانوس النحاسي نفسه مطفأً، قرب كوّة عاجية ترسم عليها الشمس نجومًا",
+ faqTitle:"أسئلتكم", faqWa:"لم تجدوا الجواب؟ راسلونا على واتساب، ونجيبكم.", faqWaCta:"الكتابة على واتساب", faqSizeQ:"أي حجم أختار؟", faqSizeA:"30 مل للتجربة أو لحمله في الحقيبة، و50 مل للاستعمال اليومي، و100 مل حين تتبنّون العطر: إنه أفضل سعر للمل.",
+ clubTitle:"نادي واتساب", clubSub:"الجديد، قبل الجميع.", clubText:"عطور جديدة وعلب المواسم، في رسالة. أجيبوا بـ«توقف» لإلغاء الاشتراك.", clubLabel:"رقم واتساب الخاص بكم", clubHint:"نستعمله فقط لمراسلتكم على واتساب.", clubBtn:"الانضمام إلى النادي", clubErr:"يبدو أن هذا الرقم غير مكتمل. مثال: 06 12 34 56 78.", clubOk:"مرحبًا بكم في النادي. (معاينة: لا يُرسل أي رقم ولا يُحفظ.)",
+ ftrTag:"عطور مستوحاة من كبرى العائلات العطرية، نختارها بعناية ونوصلها إلى بابكم.", fSocial:"تابعوا الدار", socialSoon:"{name} دار حرمان (الحساب قريبًا)", fShop:"العطور", fHelp:"المساعدة", fFaq:"الأسئلة الشائعة", fDelivery:"التوصيل والإرجاع", fHouse:"الدار", fReviews:"الآراء", fClub:"نادي واتساب", fContact:"للتواصل", fWa:"واتساب", fPay:"الدفع نقدًا عند الاستلام", fShip:"التوصيل إلى كل مدن المغرب، مجانًا ابتداءً من {free}", fSealed:"قارورة مغلقة، والاستبدال خلال 7 أيام", fTheme:"العرض", themeAuto:"حسب الجهاز", themeDay:"نهار", themeNight:"ليل",
+ fIndep:"دار حرمان دار مستقلة. عطورنا تحمل أسماءنا الخاصة، وليست منتجات لعلامات تجارية أخرى.", fTerms:"الشروط العامة للبيع", fPrivacy:"الخصوصية وملفات تعريف الارتباط", fLegal:"البيانات القانونية", fCopy:"© 2026 دار حرمان", fConcept:"ليالي، الإصدار الثاني «فانوس» · معاينة: منتجات وأسعار وصور وآراء على سبيل المثال.",
+ searchLabel:"البحث عن عطر", searchPh:"اسم، نفحة، رقم…", searchNone:"لا يوجد عطر مطابق. جرّبوا «عنبر» أو «ياسمين».", menuWa:"سؤال قبل الاختيار؟ نجيبكم على واتساب.", menuWaCta:"راسلونا على واتساب",
+ bagTitle:"سلتكم", bagEmpty:"سلتكم فارغة. ابدؤوا بالعطور الأكثر طلبًا.", subtotal:"المجموع الفرعي", delivery:"التوصيل", free:"مجاني", toFree:"بقي <b>{amount}</b> للحصول على توصيل مجاني.", freeOk:"<b>التوصيل مجاني لطلبكم.</b>", checkout:"تأكيد الطلب · الدفع عند الاستلام", checkoutNote:"معاينة: الطلب غير مفعّل بعد.", waBag:"الطلب عبر واتساب", codNote:"تدفعون نقدًا عند الاستلام، في كل مدن المغرب.",
+ added:"أُضيف {name} إلى سلتكم", less:"واحد أقل", more:"واحد أكثر", sizeMl:"{ml} مل", dockTo:"بقي {amount}", dockToSub:"للتوصيل المجاني", dockFree:"التوصيل مجاني", dockFreeSub:"الدفع عند الاستلام", dockView:"السلة · {price}",
+ title:"دار حرمان · عطور في المغرب ابتداءً من 129 د.م."
+}};
+
+const fill = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => (o && k in o) ? o[k] : '{' + k + '}');
+const t = (k, o) => fill((UI[lang][k] ?? UI.fr[k] ?? k), o);
+const num = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+const price = n => lang === 'ar' ? `<bdi>${num(n)} د.م.</bdi>` : `${num(n)} DH`;
+const priceTxt = n => lang === 'ar' ? `${num(n)} د.م.` : `${num(n)} DH`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pname = p => p.name[lang];
+const nlabel = n => lang === 'ar' ? `رقم ${n}` : `N° ${n}`;
+const fam = f => T[lang].family[f];
+const gen = g => T[lang].gender[g];
+const priceOf = (p, ml) => (p.sizes.find(s => s[0] === ml) || p.sizes[1])[1];
+const FREE = () => SITE.delivery.freeThreshold, FEE = () => SITE.delivery.fee;
+
+/* ---------- theme: device by default, manual override remembered ---------- */
+const mqLight = matchMedia('(prefers-color-scheme: light)');
+let themePref = 'auto';
+try { themePref = localStorage.getItem('mh-lanterne-theme') || 'auto'; } catch (e) {}
+const isLight = () => themePref === 'light' || (themePref === 'auto' && mqLight.matches);
+const pimg = p => `../../shared/img/r-${isLight() ? 'pack' : 'mood'}-${p.slug}.webp`;
+function applyTheme() {
+  const light = isLight();
+  document.documentElement.dataset.theme = light ? 'light' : 'dark';
+  const cond = themePref === 'auto' ? '(prefers-color-scheme: light)' : (light ? 'all' : 'not all');
+  $$('source[data-scheme="light"]').forEach(s => {
+    const mq = s.dataset.mq;
+    s.media = cond === 'not all' ? 'not all' : (cond === 'all' ? (mq || 'all') : (mq ? `${mq} and ${cond}` : cond));
+  });
+  $$('meta[name="theme-color"]').forEach(m => m.content = light ? '#F5EEE1' : '#0B0A0F');
+  $$('[data-theme-set]').forEach(b => b.setAttribute('aria-pressed', b.dataset.themeSet === themePref));
+}
+function setTheme(pref) {
+  themePref = pref;
+  try { pref === 'auto' ? localStorage.removeItem('mh-lanterne-theme') : localStorage.setItem('mh-lanterne-theme', pref); } catch (e) {}
+  applyTheme(); renderAll();
+}
+mqLight.addEventListener('change', () => { if (themePref === 'auto') { applyTheme(); renderAll(); } });
+
+/* ---------- arches (concept 03 geometry) ---------- */
+function archD(H, steps = 22) {
+  const W = 100, ret = 12 * Math.PI / 180, pt = .14;
+  const k = (1 + pt) / Math.cos(ret) - pt, r = (W / 2) / k, e = pt * r, R = (r + e) / Math.cos(ret), cx = W / 2;
+  const th1 = Math.acos(-e / R), jtop = R * Math.sin(ret) + R * Math.sin(th1), cy = jtop - R * Math.sin(ret), th0 = Math.PI + ret;
+  const left = [];
+  for (let i = 0; i <= steps; i++) { const th = th0 + (th1 - th0) * i / steps; left.push([cx + e + R * Math.cos(th), cy - R * Math.sin(th)]); }
+  const right = left.slice(0, -1).reverse().map(([x, y]) => [2 * cx - x, y]);
+  return [[cx - r, H], ...left, ...right, [cx + r, H]];
+}
+const toPath = (pts, sx = 1, sy = 1) => 'M' + pts.map(([x, y]) => (x * sx).toFixed(3) + ' ' + (y * sy).toFixed(3)).join(' L') + 'Z';
+[['p45', 125], ['p34', 133.333]].forEach(([id, H]) => $('#' + id).setAttribute('d', toPath(archD(H), 1 / 100, 1 / H)));
+function archLines(root = document) { $$('[data-arch]', root).forEach(el => { const H = +el.dataset.arch; el.setAttribute('d', toPath(archD(H))); el.closest('svg').setAttribute('viewBox', `0 0 100 ${H}`); }); }
+const archSvg = (H, d = 0) => `<svg class="arch-line" viewBox="0 0 100 ${H}" preserveAspectRatio="none" aria-hidden="true"><path class="draw" pathLength="1" data-arch="${H}" style="--d:${d}ms"/></svg>`;
+
+/* ---------- the lantern meter (bag → free delivery) ---------- */
+let lmN = 0;
+function lanternMeter(pct) {
+  const id = 'lmc' + (++lmN), h = 22 * Math.max(0, Math.min(1, pct)), full = pct >= 1;
+  return `<svg class="lm ${full ? 'full' : ''}" viewBox="0 0 30 42" aria-hidden="true"><defs><clipPath id="${id}"><rect x="8" y="13" width="14" height="22"/></clipPath></defs>
+    <path class="o" d="M15 1.5v3.5M9.5 12.5L15 5.5l5.5 7z"/><rect class="f" x="8" y="${(35 - h).toFixed(2)}" width="14" height="${h.toFixed(2)}" clip-path="url(#${id})"/>
+    <path class="h" d="M15 18.2l.9 1.5 1.7-.4-.4 1.7 1.5.9-1.5.9.4 1.7-1.7-.4-.9 1.5-.9-1.5-1.7.4.4-1.7-1.5-.9 1.5-.9-.4-1.7 1.7.4z" opacity="${h > 6 ? 1 : 0}"/>
+    <rect class="o" x="8" y="13" width="14" height="22" rx=".6"/><path class="o" d="M6.5 38h17"/>
+    <path class="sp" d="M3 20l.6 1 1.1-.3-.3 1.1 1 .6-1 .6.3 1.1-1.1-.3-.6 1-.6-1-1.1.3.3-1.1-1-.6 1-.6-.3-1.1 1.1.3z"/>
+    <path class="sp" d="M27 15l.6 1 1.1-.3-.3 1.1 1 .6-1 .6.3 1.1-1.1-.3-.6 1-.6-1-1.1.3.3-1.1-1-.6 1-.6-.3-1.1 1.1.3z"/>
+    <path class="sp" d="M26 30l.5.8.9-.2-.2.9.8.5-.8.5.2.9-.9-.2-.5.8-.5-.8-.9.2.2-.9-.8-.5.8-.5-.2-.9.9.2z"/></svg>`;
+}
+
+/* ---------- size selector (30 / 50 / 100) ---------- */
+const cardMl = {};
+const mlOf = p => cardMl[p.id] || 50;
+function sizeSeg(p, group, ml) {
+  return `<div class="sz" role="radiogroup" aria-label="${esc(t('sizeLegend'))} · ${esc(pname(p))}">${p.sizes.map(([m]) => `<label class="sz-o"><input type="radio" name="${group}" value="${m}" data-sz="${p.id}" ${m === ml ? 'checked' : ''}><span>${esc(t('sizeMl', {ml: m}))}</span></label>`).join('')}</div>`;
+}
+const freeChip = on => `<span class="free" data-free ${on ? '' : 'hidden'}><svg aria-hidden="true"><use href="#i-truck"/></svg>${esc(t('freeShip'))}</span>`;
+
+/* ---------- best sellers ---------- */
+const TABS = [['best', 'tabBest'], ['men', 'navMen'], ['women', 'navWomen'], ['unisex', 'navUnisex'], ['new', 'tabNew']];
+let tab = 'best';
+const listFor = k => k === 'best' ? P.filter(p => p.badges.includes('bestseller')) : k === 'new' ? P.filter(p => p.badges.includes('new')) : P.filter(p => p.gender === k);
+function card(p, i) {
+  const ml = mlOf(p), pr = priceOf(p, ml);
+  const badge = p.badges.includes('bestseller') ? T[lang].badge.bestseller : p.badges.includes('new') ? T[lang].badge.new : '';
+  return `<article class="pc" id="p-${p.slug}" data-card="${p.id}">
+    <a class="pc-media" href="#c-${p.slug}" tabindex="-1" aria-hidden="true">
+      <div class="clip-a"><img src="${pimg(p)}" width="1200" height="1500" loading="lazy" decoding="async" alt=""></div>
+      ${archSvg(125, i * 120)}
+      ${badge ? `<span class="badge">${esc(badge)}</span>` : ''}
+    </a>
+    <p class="pc-num">${esc(nlabel(p.number))} · ${esc(fam(p.family))}</p>
+    <h3 class="pc-name">${esc(pname(p))}</h3>
+    <p class="pc-tag">${esc(p.tag[lang])}</p>
+    ${sizeSeg(p, 'sz-card-' + p.slug, ml)}
+    <div class="pc-price"><span class="price" data-pr>${price(pr)}</span>${freeChip(pr >= FREE())}</div>
+    <button class="btn btn-sm lit" type="button" data-add="${p.id}" data-ml="${ml}"><svg aria-hidden="true"><use href="#i-plus"/></svg><span data-btn>${t('addPrice', {price: price(pr)})}</span></button>
+  </article>`;
+}
+function renderTabs() {
+  $('#tabs').innerHTML = TABS.map(([k, key]) => `<button class="chip" role="tab" id="tab-${k}" aria-selected="${k === tab}" tabindex="${k === tab ? 0 : -1}" aria-controls="rail" data-tab="${k}">${esc(t(key))}${k !== 'best' && k !== 'new' ? ` <small>${P.filter(p => p.gender === k).length}</small>` : ''}</button>`).join('');
+}
+function renderRail() {
+  const rail = $('#rail');
+  rail.innerHTML = listFor(tab).map(card).join('');
+  rail.setAttribute('aria-labelledby', 'tab-' + tab);
+  $('#best-sub').textContent = tab === 'best' ? t('bestSub') : tab === 'new' ? t('newSub') : t('genSub');
+  archLines(rail); observe(rail);
+}
+function selectTab(k, focus) {
+  tab = k; renderTabs(); renderRail();
+  if (focus) $('#tab-' + k).focus();
+}
+
+/* ---------- doors ---------- */
+const DOOR_PACK = {men: 'atlas', women: 'yasmine', unisex: 'nour'};
+function renderDoors() {
+  const g = [['men', 'navMen'], ['women', 'navWomen'], ['unisex', 'navUnisex']];
+  const src = k => isLight() ? `../../shared/img/r-pack-${DOOR_PACK[k]}.webp` : `../../shared/img/r-group-${k}.webp`;
+  $('#doors').innerHTML = g.map(([k, key], i) => `<a class="door" href="#demandes" data-tab-link="${k}">
+      <div class="door-media"><div class="clip-a"><img src="${src(k)}" width="1600" height="1067" loading="lazy" decoding="async" alt=""></div>${archSvg(133.333, 200 + i * 140)}</div>
+      <span class="door-name">${esc(t(key))}</span>
+      <span class="door-meta">${esc(t('doorCount', {n: P.filter(p => p.gender === k).length}))}<svg class="flip" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>`).join('');
+  $('#m-gender').innerHTML = g.map(([k, key]) => `<a href="#demandes" data-close data-tab-link="${k}"><img src="${src(k)}" alt="" loading="lazy"><span>${esc(t(key))}</span><svg class="flip" aria-hidden="true"><use href="#i-arrow"/></svg></a>`).join('');
+  archLines($('#doors')); observe($('#doors'));
+}
+
+/* ---------- tarif + duos ---------- */
+const BOTTLE = {30: [26, 34], 50: [32, 42], 100: [40, 54]};
+function bottleSvg(ml) {
+  const [w, h] = BOTTLE[ml], W = 44, H = 62, x = (W - w) / 2, y = H - h;
+  return `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" aria-hidden="true"><rect x="${W / 2 - w * .18}" y="${y - 9}" width="${w * .36}" height="8" rx="1"/><rect x="${x}" y="${y}" width="${w}" height="${h - 1}" rx="${w * .16}"/><path d="M${x + 2} ${y + h * .42}h${w - 4}"/></svg>`;
+}
+const DUOS = [
+  {k: 'd1', items: [['nour', 30], ['layali', 30]]},
+  {k: 'd2', items: [['atlas', 50], ['yasmine', 50]]},
+  {k: 'd3', items: [['caravane', 30], ['safran', 30]]},
+];
+const duoTotal = d => d.items.reduce((a, [s, ml]) => a + priceOf(bySlug[s], ml), 0);
+function renderTarif() {
+  const base = P.find(p => p.family !== 'oud'), oud = bySlug.safran;
+  const use = {30: 't30', 50: 't50', 100: 't100'};
+  $('#sizes3').innerHTML = base.sizes.map(([ml, pr]) => `<div class="s3 ${ml === 100 ? 'best' : ''}">${bottleSvg(ml)}<span class="ml">${esc(t('sizeMl', {ml}))}</span><span class="price">${price(pr)}</span><span class="use">${esc(t(use[ml]))}</span><span class="perml">${esc(t('perMl', {p: (pr / ml).toFixed(2).replace('.', lang === 'ar' ? '.' : ',')}))}</span></div>`).join('');
+  $('#tar-oud').innerHTML = t('tarOud', {a: `<span class="price">${price(oud.sizes[0][1])}</span>`, b: `<span class="price">${price(oud.sizes[1][1])}</span>`, c: `<span class="price">${price(oud.sizes[2][1])}</span>`});
+  $('#duos').innerHTML = DUOS.map(d => {
+    const tot = duoTotal(d), names = d.items.map(([s, ml]) => `${pname(bySlug[s])} ${t('sizeMl', {ml})}`).join(lang === 'ar' ? ' + ' : ' + ');
+    return `<article class="duo"><div class="duo-pics">${d.items.map(([s]) => `<span><img src="${pimg(bySlug[s])}" alt="" loading="lazy" decoding="async" width="1200" height="1500"></span>`).join('')}</div>
+      <div><h4>${esc(t(d.k))}</h4><p class="names">${esc(names)}</p>${tot >= FREE() ? freeChip(true) : ''}</div>
+      <button class="btn btn-sm lit" type="button" data-duo="${d.k}">${t('duoAdd', {price: price(tot)})}</button></article>`;
+  }).join('');
+}
+
+/* ---------- moment: day / night ---------- */
+const H = new Date().getHours();
+let tod = (H >= 17 || H < 5) ? 'night' : 'day';
+const MOM = {day: ['day', 'office', 'summer'], night: ['evening', 'celebration', 'winter']};
+let mom = {day: 'day', night: 'evening'};
+const momList = m => (m === 'summer' || m === 'winter') ? P.filter(p => p.seasons.includes(m)) : P.filter(p => p.moments.includes(m));
+function mini(p) {
+  const pr = priceOf(p, 50);
+  return `<article class="mini"><a class="mini-media" href="#c-${p.slug}" tabindex="-1" aria-hidden="true"><div class="clip-a"><img src="${tod === 'day' ? `../../shared/img/r-pack-${p.slug}.webp` : `../../shared/img/r-mood-${p.slug}.webp`}" alt="" loading="lazy" decoding="async" width="1200" height="1500"></div></a>
+    <h3>${esc(pname(p))}</h3><p class="mt">${esc(p.tag[lang])}</p>
+    <button class="btn btn-sm lit" type="button" data-add="${p.id}" data-ml="50" aria-label="${esc(t('addSize', {ml: 50, price: priceTxt(pr)}))} : ${esc(pname(p))}"><svg aria-hidden="true"><use href="#i-plus"/></svg>${esc(t('sizeMl', {ml: 50}))} · ${price(pr)}</button></article>`;
+}
+function renderMoment() {
+  $$('[data-tod]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tod === tod));
+  const pane = $('#mom-pane');
+  pane.className = 'mom-pane ' + (tod === 'day' ? 'day' : 'night');
+  const cur = mom[tod], list = momList(cur).sort((a, b) => b.badges.includes('bestseller') - a.badges.includes('bestseller'));
+  pane.innerHTML = `<p class="mom-lead">${esc(t(tod === 'day' ? 'dayLead' : 'nightLead'))}</p>
+    <div class="chiprow" role="group" aria-label="${esc(t('momLabel'))}">${MOM[tod].map(m => `<button class="chip" type="button" data-mom="${m}" aria-pressed="${m === cur}">${esc(t('m_' + m))} <small>${momList(m).length}</small></button>`).join('')}</div>
+    <div class="minis">${list.map(mini).join('')}</div>`;
+}
+
+/* ---------- la carte + matières ---------- */
+const MATS = [['amber', 's-texture-amber', 'amber honey vanilla benzoin labdanum praline'], ['wood', 's-texture-oud', 'oud sandalwood vetiver cypress'], ['spice', 's-texture-spice', 'cinnamon cardamom pink-pepper black-pepper saffron'], ['flower', 's-texture-floral', 'rose jasmine tuberose peony orange-blossom iris neroli'], ['citrus', 's-texture-gold', 'lemon mandarin grapefruit petitgrain mint'], ['musk', 's-texture-smoke', 'white-musk incense']];
+let mat = '';
+const notesOf = p => [...p.notes.top, ...p.notes.heart, ...p.notes.base];
+const matHit = (p, m) => !m || MATS.find(x => x[0] === m)[2].split(' ').some(n => notesOf(p).includes(n));
+const CARTE_ORDER = ['citrus-aromatic', 'fresh-spicy', 'musky', 'floral', 'floral-fruity', 'woody-aromatic', 'gourmand', 'amber-oriental', 'oud'];
+function renderMats() {
+  $('#mats').innerHTML = `<button class="mat" type="button" data-mat="" aria-pressed="${mat === ''}"><span class="mat-img"><b>${P.length}</b></span><span class="mat-n">${esc(t('matAll'))}</span></button>` +
+    MATS.map(([k, img]) => `<button class="mat" type="button" data-mat="${k}" aria-pressed="${mat === k}"><span class="mat-img"><img src="../../shared/img/${img}.webp" alt="" loading="lazy" decoding="async" width="160" height="160"></span><span class="mat-n">${esc(t('mat_' + k))}</span></button>`).join('');
+}
+function renderCarte() {
+  const shown = P.filter(p => matHit(p, mat));
+  const ml3 = [30, 50, 100];
+  let html = `<div class="carte-top"><p class="carte-count" aria-live="polite">${esc(t('carteCount', {n: shown.length}))}</p><div class="cols" aria-hidden="true">${ml3.map(m => `<span>${esc(t('sizeMl', {ml: m}))}</span>`).join('')}</div></div>`;
+  CARTE_ORDER.forEach(f => {
+    const items = P.filter(p => p.family === f);
+    const vis = items.filter(p => matHit(p, mat));
+    html += `<h3 class="cfam" ${vis.length ? '' : 'hidden'}><svg aria-hidden="true"><use href="#i-star"/></svg>${esc(fam(f))}</h3>`;
+    html += items.map(p => `<div class="cline" id="c-${p.slug}" ${matHit(p, mat) ? '' : 'hidden'}>
+      <div class="cl-name"><b>${esc(pname(p))}</b><small>${esc(nlabel(p.number))} · ${esc(gen(p.gender))}</small></div>
+      <p class="cl-tag">${esc(p.tag[lang])}</p>
+      <div class="cl-prices">${p.sizes.map(([m, pr]) => `<button class="pb" type="button" data-add="${p.id}" data-ml="${m}" aria-label="${esc(t('carteAdd', {name: pname(p), ml: m, price: priceTxt(pr)}))}">${num(pr)}</button>`).join('')}</div></div>`).join('');
+  });
+  html += `<p class="carte-foot">${esc(t('carteFoot'))} <span class="sample" style="margin-inline-start:6px">${esc(t('priceSample'))}</span></p>`;
+  $('#carte-card').innerHTML = html;
+}
+
+/* ---------- trio ---------- */
+let trio = [];
+const TRIO_ML = 30, TRIO_OFF = .9;
+const trioOld = () => trio.reduce((a, s) => a + priceOf(bySlug[s], TRIO_ML), 0);
+const trioNew = () => Math.round(trioOld() * TRIO_OFF);
+function renderTrio(msg) {
+  $('#slots').innerHTML = [0, 1, 2].map(i => {
+    const s = trio[i], p = s && bySlug[s], next = !s && i === trio.length;
+    return `<div class="slot ${s ? 'filled' : ''} ${next ? 'next' : ''}">
+      <div class="slot-a"><div class="clip-a">${p ? `<img src="${pimg(p)}" alt="" width="1200" height="1500">` : `<span class="n" aria-hidden="true">${i + 1}</span>`}</div>${archSvg(125)}</div>
+      <span class="slot-name">${p ? esc(pname(p)) : `<span class="vh">${esc(t('trioSlot', {n: i + 1}))} : </span>${esc(t('trioEmpty'))}`}</span>
+      ${p ? `<button class="slot-rm" type="button" data-trio-rm="${s}" aria-label="${esc(t('trioRmL', {name: pname(p)}))}"><svg width="12" height="12" aria-hidden="true"><use href="#i-close"/></svg>${esc(t('trioRm'))}</button>` : '<span style="min-height:44px"></span>'}
+    </div>`;
+  }).join('');
+  archLines($('#slots'));
+  $$('#slots .draw').forEach(d => d.classList.add('in'));
+  const left = 3 - trio.length, ready = !left;
+  $('#trio-bar').innerHTML = `<div class="tp"><span>${esc(ready ? t('trioReady') : t('trioLeft', {n: left}))}</span><span>${trio.length ? `<s>${price(trioOld())}</s>` : ''}<span class="price">${trio.length ? price(trioNew()) : '–'}</span></span></div>
+    <button class="btn btn-wide lit" type="button" id="trio-add" ${ready ? '' : 'disabled'}><svg aria-hidden="true"><use href="#i-plus"/></svg>${ready ? t('trioAddP', {price: price(trioNew())}) : esc(t('trioAdd'))}</button>
+    <div class="tools"><span class="sample">${esc(t('trioOffer'))}</span>${ready && trioNew() >= FREE() ? freeChip(true) : ''}<button class="link" type="button" id="trio-reset" ${trio.length ? '' : 'hidden'}>${esc(t('trioReset'))}</button></div>`;
+  $('#picker').innerHTML = P.map(p => `<button class="pk" type="button" data-pick="${p.slug}" aria-pressed="${trio.includes(p.slug)}"><img src="${pimg(p)}" alt="" loading="lazy" decoding="async" width="1200" height="1500"><b>${esc(pname(p))}</b><small>${esc(nlabel(p.number))}</small></button>`).join('');
+  $('#trio-msg').textContent = msg || '';
+}
+
+/* ---------- WhatsApp chat ---------- */
+const waLink = msg => SITE.contact.whatsappLink + '?text=' + encodeURIComponent(msg);
+function renderChat() {
+  const lay = bySlug.layali;
+  $('#msgs').innerHTML = `<div class="msg me">${esc(t('c1'))}<small>10:02</small></div>
+    <div class="msg them prod"><img src="${pimg(lay)}" alt="" width="1200" height="1500" loading="lazy"><span><b>${esc(pname(lay))} · ${esc(nlabel(lay.number))}</b><br>${esc(t('sizeMl', {ml: 50}))} · <span class="price">${price(priceOf(lay, 50))}</span></span></div>
+    <div class="msg them">${esc(t('c2'))}<small>10:03</small></div>
+    <div class="msg me">${esc(t('c3'))}<small>10:03</small></div>
+    <div class="msg them">${esc(t('c4'))}<small>10:04</small></div>`;
+  $('#wa-big').href = waLink(lang === 'ar' ? 'السلام عليكم دار حرمان، ' : 'Bonjour Maison Harman, ');
+  $('#faq-wa-btn').href = waLink(lang === 'ar' ? 'السلام عليكم دار حرمان، عندي سؤال: ' : 'Bonjour Maison Harman, j\'ai une question : ');
+}
+
+/* ---------- reviews, faq, socials, marquee ---------- */
+function stars(n) { return `<span class="stars" role="img" aria-label="${esc(t('rating', {n}))}">${[1, 2, 3, 4, 5].map(i => `<svg class="${i > n ? 'off' : ''}" aria-hidden="true"><use href="#i-star"/></svg>`).join('')}</span>`; }
+function renderRevs() {
+  const q = x => lang === 'ar' ? `«${x}»` : `« ${x} »`;
+  $('#revs').innerHTML = DATA.reviews.map(r => { const p = byId[r.p]; return `<figure class="rev">${stars(r.rating)}<blockquote>${esc(q(r.text[lang]))}</blockquote><figcaption><span>${esc(r.name[lang])}, ${esc(r.city[lang])}</span><a href="#c-${p.slug}">${esc(t('revAbout', {name: pname(p)}))}</a></figcaption><span class="sample" style="justify-self:start">${esc(t('example'))}</span></figure>`; }).join('');
+}
+function renderFaq() {
+  const d = SITE.delivery, fa = T[lang].faq;
+  const vars = {minDays: d.minDays, maxDays: d.maxDays, fee: priceTxt(d.fee), amount: priceTxt(d.freeThreshold), days: SITE.returns.exchangeDays};
+  const plus = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v14M1 8h14" stroke="currentColor" stroke-width="1.3"/></svg>';
+  const items = [[fa.delivery.q, fill(fa.delivery.a, vars)], [fa.payment.q, fa.payment.a], [t('faqSizeQ'), t('faqSizeA')], [fa.choose.q, fa.choose.a], [fa.inspired.q, fa.inspired.a], [fa.exchange.q, fill(fa.exchange.a, vars)]];
+  $('#faq-list').innerHTML = items.map(([q, a], i) => `<details ${i === 0 ? 'open' : ''}><summary>${esc(q)}${plus}</summary><p>${esc(a)}</p></details>`).join('');
+}
+const SOCIAL = [['s-ig', 'Instagram'], ['s-tt', 'TikTok'], ['s-fb', 'Facebook'], ['s-sc', 'Snapchat'], ['s-yt', 'YouTube'], ['s-wa', 'WhatsApp']];
+function renderSocial() {
+  $('#social').innerHTML = SOCIAL.map(([ic, n]) => `<li><a href="#" aria-label="${esc(t('socialSoon', {name: n}))}" title="${esc(n)}"><svg aria-hidden="true"><use href="#${ic}"/></svg></a></li>`).join('');
+}
+function renderMarquee() {
+  const free = priceTxt(FREE());
+  const items = [['i-cash', 'mq1'], ['i-truck', 'mq2'], ['i-star', 'mq3'], ['s-wa', 'mq4'], ['i-bottle', 'mq5'], ['i-swap', 'mq6']];
+  const one = items.map(([ic, k]) => `<span><svg aria-hidden="true"><use href="#${ic}"/></svg>${k === 'mq2' ? `<b>${esc(t(k, {free}))}</b>` : esc(t(k, {free}))}</span>`).join('');
+  $('#mq-track').innerHTML = one + one;
+  $('#mq-sr').innerHTML = items.map(([, k]) => `<li>${esc(t(k, {free}))}</li>`).join('');
+}
+
+/* ---------- hero plaque ---------- */
+let heroMl = 50;
+function renderHot() {
+  const hp = bySlug.layali, pr = priceOf(hp, heroMl);
+  $('[data-hot-name]').textContent = `${pname(hp)} · ${nlabel(hp.number)}`;
+  $('[data-hot-price]').innerHTML = `<span class="price">${t('from', {price: price(hp.sizes[0][1])})}</span>`;
+  $('.hot-btn').setAttribute('aria-label', `${pname(hp)} · ${nlabel(hp.number)}, ${t('from', {price: priceTxt(hp.sizes[0][1])})}. ${t('hotOpen')}`);
+  $('#hot-panel').innerHTML = `<p>${esc(hp.tag[lang])}</p>${sizeSeg(hp, 'sz-hero', heroMl)}
+    <button class="btn btn-sm lit" type="button" data-add="${hp.id}" data-ml="${heroMl}" data-hero-add><svg aria-hidden="true"><use href="#i-plus"/></svg>${t('addSize', {ml: heroMl, price: price(pr)})}</button>`;
+}
+
+/* ---------- hero video slot: drop-in, muted, playsinline, poster = current image ---------- */
+function heroVideo() {
+  const box = $('#hero-media'), d = matchMedia('(min-width:900px)').matches, light = isLight();
+  const src = (d && light && box.dataset.videoDDay) || (d && box.dataset.videoD) || (light && box.dataset.videoDay) || box.dataset.video;
+  const old = $('video', box);
+  const save = navigator.connection && navigator.connection.saveData;
+  if (!src || RM || save) { if (old) { old.remove(); $('#hero-pic').hidden = false; $('#video-ctl').hidden = true; } return; }
+  if (old && old.dataset.src === src) return;
+  if (old) old.remove();
+  const v = document.createElement('video');
+  Object.assign(v, {muted: true, loop: true, playsInline: true, autoplay: true, preload: 'metadata'});
+  v.setAttribute('muted', ''); v.setAttribute('playsinline', ''); v.setAttribute('aria-hidden', 'true');
+  v.poster = $('#hero-img').currentSrc || $('#hero-img').src; v.src = src; v.dataset.src = src;
+  $('.hero-frame', box).prepend(v); $('#hero-pic').hidden = true;
+  const ctl = $('#video-ctl'); ctl.hidden = false;
+  v.play().catch(() => {});
+}
+
+/* ---------- cart ---------- */
+const cart = new Map();
+function addLine(key, line) { const cur = cart.get(key) || {...line, qty: 0}; cur.qty++; cart.set(key, cur); }
+function afterAdd(name) { updateCount(true); renderBag(); toast(t('added', {name})); }
+function lineInfo(it) {
+  if (it.trio) return {name: `${t('trioName')} · ${it.trio.map(s => pname(bySlug[s])).join(lang === 'ar' ? '، ' : ', ')}`, sub: `3 × ${t('sizeMl', {ml: TRIO_ML})}`, unit: it.unit, img: pimg(bySlug[it.trio[0]])};
+  const p = byId[it.id];
+  return {name: pname(p), sub: `${nlabel(p.number)} · ${t('sizeMl', {ml: it.ml})}`, unit: priceOf(p, it.ml), img: pimg(p)};
+}
+const subtotal = () => [...cart.values()].reduce((a, it) => a + lineInfo(it).unit * it.qty, 0);
+const qtyAll = () => [...cart.values()].reduce((a, b) => a + b.qty, 0);
+function updateCount(bump) {
+  const n = qtyAll();
+  $$('[data-count]').forEach(c => { c.textContent = n; c.dataset.n = n; if (bump && !RM) { c.classList.remove('bump'); void c.offsetWidth; c.classList.add('bump'); setTimeout(() => c.classList.remove('bump'), 320); } });
+  renderDock();
+}
+function renderDock() {
+  const n = qtyAll(), dock = $('#dock'), sub = subtotal(), left = Math.max(0, FREE() - sub);
+  const show = n > 0;
+  dock.classList.toggle('show', show); dock.setAttribute('aria-hidden', !show);
+  $('#dock-btn').tabIndex = show ? 0 : -1;
+  document.body.classList.toggle('has-dock', show);
+  document.documentElement.style.setProperty('--dock-h', show ? dock.offsetHeight + 'px' : '0px');
+  if (!show) return;
+  $('#dock-lm').innerHTML = lanternMeter(sub / FREE());
+  $('#dock-txt').innerHTML = left ? `<b>${t('dockTo', {amount: price(left)})}</b>${esc(t('dockToSub'))}` : `<b>${esc(t('dockFree'))}</b>${esc(t('dockFreeSub'))}`;
+  $('#dock-btn').innerHTML = t('dockView', {price: price(sub)});
+}
+function renderBag() {
+  const items = [...cart.entries()];
+  const box = $('#bag-items'), foot = $('#bag-foot');
+  if (!items.length) { box.innerHTML = `<p class="bag-empty">${esc(t('bagEmpty'))}</p><a class="btn btn-line btn-wide" href="#demandes" data-close>${esc(t('heroCta1'))}</a>`; foot.innerHTML = `<p class="fine">${esc(t('codNote'))}</p>`; return; }
+  box.innerHTML = items.map(([k, it]) => { const L = lineInfo(it); return `<div class="bi"><img src="${L.img}" alt=""><div><div class="n">${esc(L.name)}</div><div class="s">${esc(L.sub)} · <span class="price">${price(L.unit)}</span></div></div><div class="qty"><button type="button" data-q="-1" data-k="${esc(k)}" aria-label="${esc(t('less'))} : ${esc(L.name)}">−</button><span>${it.qty}</span><button type="button" data-q="1" data-k="${esc(k)}" aria-label="${esc(t('more'))} : ${esc(L.name)}">+</button></div></div>`; }).join('');
+  const sub = subtotal(), left = Math.max(0, FREE() - sub), fee = left ? FEE() : 0;
+  const msg = items.map(([, it]) => { const L = lineInfo(it); return `${L.name} (${L.sub}) × ${it.qty}`; }).join(', ');
+  foot.innerHTML = `<div class="bag-row"><span>${esc(t('subtotal'))}</span><span class="price">${price(sub)}</span></div>
+    <div class="bag-row"><span>${esc(t('delivery'))}</span><span>${fee ? price(fee) : esc(t('free'))}</span></div>
+    <div class="meter-row">${lanternMeter(sub / FREE())}<p>${left ? t('toFree', {amount: price(left)}) : t('freeOk')}<br>${esc(t('codNote'))}</p></div>
+    <button class="btn lit btn-wide" type="button" id="checkout">${esc(t('checkout'))}</button>
+    <a class="btn btn-line btn-wide" href="${waLink((lang === 'ar' ? 'السلام عليكم دار حرمان، أرغب في طلب: ' : 'Bonjour Maison Harman, je souhaite commander : ') + msg)}" rel="noopener">${esc(t('waBag'))}</a>
+    <p class="fine" id="co-note" aria-live="polite"></p>`;
+}
+let toastT;
+function toast(msg) { const el = $('#toast'); $('span', el).textContent = msg; el.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove('show'), 2600); }
+
+/* ---------- masked word reveal (titles) ---------- */
+const revealed = new Set();
+let mio;
+function splitMR(el) {
+  const txt = el.textContent.trim();
+  el.setAttribute('aria-label', txt);
+  let i = 0;
+  el.innerHTML = txt.split(/(\s+)/).map(w => /^\s+$/.test(w) || !w ? w : `<span class="wm" aria-hidden="true"><span class="w" style="--i:${i++}">${esc(w)}</span></span>`).join('');
+  el.classList.add('mr-ready');
+  if (revealed.has(el.id)) el.classList.add('in');
+  else if (mio) mio.observe(el);
+}
+function mrAll() {
+  if (RM || !('IntersectionObserver' in window)) return;
+  $$('[data-mr]').forEach(splitMR);
+}
+if ('IntersectionObserver' in window && !RM) {
+  mio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); revealed.add(e.target.id); mio.unobserve(e.target); } }), {rootMargin: '0px 0px -18% 0px'});
+}
+let io;
+function observe(root) {
+  const els = $$('svg .draw', root || document);
+  if (!io || RM) { els.forEach(e => e.classList.add('in')); return; }
+  els.forEach(e => { if (!e.classList.contains('in')) io.observe(e); });
+}
+if ('IntersectionObserver' in window) io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {rootMargin: '0px 0px -8% 0px', threshold: .1});
+
+/* ---------- i18n ---------- */
+function applyStatic() {
+  const free = price(FREE()), fee = price(FEE());
+  $$('[data-t]').forEach(el => { el.textContent = t(el.dataset.t); });
+  $$('[data-th]').forEach(el => { el.innerHTML = t(el.dataset.th, {free, fee}); });
+  $$('[data-t-aria]').forEach(el => el.setAttribute('aria-label', t(el.dataset.tAria)));
+  $$('[data-t-ph]').forEach(el => el.setAttribute('placeholder', t(el.dataset.tPh)));
+  $$('.lang').forEach(b => { $('.fr', b).classList.toggle('on', lang === 'fr'); $('.ar', b).classList.toggle('on', lang === 'ar'); });
+  const light = isLight();
+  $('#hero-title').textContent = t(light ? 'heroTitleDay' : 'heroTitleNight');
+  $('#hero-img').alt = t(light ? 'heroAltDay' : 'heroAltNight');
+  $('[data-t-alt="maisonAlt"]').alt = t(light ? 'maisonAltDay' : 'maisonAltNight');
+  $$('#hero-pic source[data-src-ltr]').forEach(s => s.srcset = lang === 'ar' ? s.dataset.srcRtl : s.dataset.srcLtr);
+  $('[data-theme-toggle]').setAttribute('aria-label', t(light ? 'themeToNight' : 'themeToDay'));
+  const paused = $('#mq').classList.contains('paused');
+  $('#mq-btn').setAttribute('aria-label', t(paused ? 'mqPlay' : 'mqPause'));
+  document.title = t('title');
+}
+function renderAll() {
+  lmN = 0;
+  applyStatic(); renderMarquee(); renderHot(); renderDoors(); renderTabs(); renderRail(); renderTarif(); renderMoment(); renderMats(); renderCarte(); renderTrio(); renderChat(); renderRevs(); renderFaq(); renderSocial(); renderBag(); updateCount(false);
+  search($('#q').value); mrAll(); observe(); heroVideo();
+}
+function setLang(l) {
+  lang = l;
+  document.documentElement.lang = l; document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+  renderAll();
+  try { localStorage.setItem('mh-lanterne-lang', l); } catch (e) {}
+}
+
+/* ---------- search ---------- */
+function row(p) {
+  const pr = priceOf(p, 50);
+  return `<div class="row"><img src="${pimg(p)}" alt="" loading="lazy" decoding="async"><div><div class="rn">${esc(pname(p))}</div><div class="rt">${esc(nlabel(p.number))} · ${esc(p.tag[lang])}</div></div><button class="btn btn-sm lit" type="button" data-add="${p.id}" data-ml="50" aria-label="${esc(t('addSize', {ml: 50, price: priceTxt(pr)}))} : ${esc(pname(p))}">${price(pr)}</button></div>`;
+}
+function search(q) {
+  const box = $('#sres');
+  q = (q || '').trim().toLowerCase();
+  if (q.length < 2) { box.innerHTML = ''; return; }
+  const hit = P.filter(p => [p.name.fr, p.name.ar, p.number, fam(p.family), T.fr.family[p.family], ...notesOf(p).flatMap(n => [T.fr.notes[n], T.ar.notes[n]])].join(' ').toLowerCase().includes(q));
+  box.innerHTML = hit.length ? hit.slice(0, 6).map(row).join('') : `<p style="color:var(--ink-2);margin:0">${esc(t('searchNone'))}</p>`;
+}
+
+/* ---------- events ---------- */
+function closeHot() { const b = $('.hot-btn'); if (b.getAttribute('aria-expanded') === 'true') { b.setAttribute('aria-expanded', 'false'); $('#hot-panel').hidden = true; } }
+document.addEventListener('click', e => {
+  const a = e.target.closest('[data-add]');
+  if (a) { const p = byId[a.dataset.add], ml = +a.dataset.ml; addLine(p.id + '|' + ml, {id: p.id, ml}); afterAdd(`${pname(p)} ${t('sizeMl', {ml})}`); if (a.classList.contains('pb')) { a.classList.add('done'); setTimeout(() => a.classList.remove('done'), 700); } return; }
+  const du = e.target.closest('[data-duo]');
+  if (du) { const d = DUOS.find(x => x.k === du.dataset.duo); d.items.forEach(([s, ml]) => { const p = bySlug[s]; addLine(p.id + '|' + ml, {id: p.id, ml}); }); afterAdd(t(d.k)); return; }
+  const o = e.target.closest('[data-open]');
+  if (o) { const d = $('#' + o.dataset.open); closeHot(); d.showModal(); if (o.dataset.focus === 'search') setTimeout(() => $('#q').focus(), 30); return; }
+  const tl = e.target.closest('[data-tab-link]');
+  if (tl) { selectTab(tl.dataset.tabLink); const dlg = tl.closest('dialog'); if (dlg) dlg.close(); e.preventDefault(); $('#demandes').scrollIntoView({behavior: RM ? 'auto' : 'smooth'}); return; }
+  const c = e.target.closest('[data-close]');
+  if (c) { const d = c.closest('dialog'); if (d) d.close(); }
+  if (e.target.closest('[data-lang-toggle]')) { setLang(lang === 'fr' ? 'ar' : 'fr'); return; }
+  if (e.target.closest('[data-theme-toggle]')) { setTheme(isLight() ? 'dark' : 'light'); return; }
+  const ts = e.target.closest('[data-theme-set]');
+  if (ts) { setTheme(ts.dataset.themeSet); return; }
+  const tb = e.target.closest('[data-tab]');
+  if (tb) { selectTab(tb.dataset.tab); return; }
+  const td = e.target.closest('[data-tod]');
+  if (td) { tod = td.dataset.tod; renderMoment(); return; }
+  const mm = e.target.closest('[data-mom]');
+  if (mm) { mom[tod] = mm.dataset.mom; renderMoment(); const nb = $(`[data-mom="${mm.dataset.mom}"]`); if (nb) nb.focus({preventScroll: true}); return; }
+  const mt = e.target.closest('[data-mat]');
+  if (mt) { mat = mt.dataset.mat; renderMats(); renderCarte(); const nb = $(`[data-mat="${mat}"]`); if (nb) nb.focus({preventScroll: true}); return; }
+  const pk = e.target.closest('[data-pick]');
+  if (pk) { const s = pk.dataset.pick; let msg = ''; if (trio.includes(s)) trio = trio.filter(x => x !== s); else if (trio.length < 3) trio.push(s); else msg = t('trioFull'); renderTrio(msg); const nb = $(`[data-pick="${s}"]`); if (nb) nb.focus({preventScroll: true}); return; }
+  const rm = e.target.closest('[data-trio-rm]');
+  if (rm) { trio = trio.filter(x => x !== rm.dataset.trioRm); renderTrio(); return; }
+  if (e.target.closest('#trio-reset')) { trio = []; renderTrio(); return; }
+  if (e.target.closest('#trio-add')) { if (trio.length === 3) { addLine('trio:' + trio.join(','), {trio: [...trio], unit: trioNew(), ml: TRIO_ML}); afterAdd(t('trioName')); trio = []; renderTrio(); } return; }
+  const q = e.target.closest('[data-q]');
+  if (q) { const it = cart.get(q.dataset.k); it.qty += +q.dataset.q; if (it.qty <= 0) cart.delete(q.dataset.k); updateCount(false); renderBag(); return; }
+  if (e.target.closest('#checkout')) { $('#co-note').textContent = t('checkoutNote'); return; }
+  if (e.target.closest('#mq-btn')) { const m = $('#mq'), p = !m.classList.contains('paused'); m.classList.toggle('paused', p); $('#mq-btn').setAttribute('aria-pressed', p); $('#mq-btn').innerHTML = `<svg aria-hidden="true"><use href="#${p ? 'i-play' : 'i-pause'}"/></svg>`; $('#mq-btn').setAttribute('aria-label', t(p ? 'mqPlay' : 'mqPause')); return; }
+  if (e.target.closest('#video-ctl')) { const v = $('#hero-media video'); if (v) { if (v.paused) { v.play(); } else { v.pause(); } $('#video-ctl').setAttribute('aria-label', t(v.paused ? 'videoPlay' : 'videoPause')); } return; }
+  const hb = e.target.closest('.hot-btn');
+  if (hb) { const open = hb.getAttribute('aria-expanded') === 'true'; hb.setAttribute('aria-expanded', !open); $('#hot-panel').hidden = open; return; }
+  if (!e.target.closest('#hot')) closeHot();
+});
+$$('dialog').forEach(d => d.addEventListener('click', e => { if (e.target === d) d.close(); }));
+$('#tabs').addEventListener('keydown', e => {
+  if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
+  e.preventDefault();
+  const keys = TABS.map(x => x[0]), i = keys.indexOf(tab), fwd = (e.key === 'ArrowRight') !== (lang === 'ar');
+  const n = e.key === 'Home' ? 0 : e.key === 'End' ? keys.length - 1 : (i + (fwd ? 1 : -1) + keys.length) % keys.length;
+  selectTab(keys[n], true);
+});
+document.addEventListener('change', e => {
+  const el = e.target;
+  if (el.dataset.sz) {
+    const p = byId[el.dataset.sz], ml = +el.value;
+    if (el.name === 'sz-hero') { heroMl = ml; renderHot(); $(`input[name="sz-hero"][value="${ml}"]`).focus(); return; }
+    cardMl[p.id] = ml;
+    const cardEl = el.closest('[data-card]'), pr = priceOf(p, ml);
+    if (cardEl) {
+      $('[data-pr]', cardEl).innerHTML = price(pr);
+      $('[data-free]', cardEl).hidden = pr < FREE();
+      const b = $('[data-add]', cardEl); b.dataset.ml = ml; $('[data-btn]', b).innerHTML = t('addPrice', {price: price(pr)});
+    }
+  }
+});
+$('#q').addEventListener('input', e => search(e.target.value));
+$('#club-form').addEventListener('submit', e => {
+  e.preventDefault();
+  const inp = $('#club-phone'), m = $('#club-msg'), digits = inp.value.replace(/\D/g, '');
+  const ok = /^(0?[5-7]\d{8}|212[5-7]\d{8})$/.test(digits);
+  inp.setAttribute('aria-invalid', !ok); $('#tel').dataset.invalid = !ok;
+  m.className = 'msgline ' + (ok ? 'ok' : 'err');
+  m.textContent = ok ? t('clubOk') : t('clubErr');
+  if (!ok) inp.focus();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { const b = $('.hot-btn'); if (b.getAttribute('aria-expanded') === 'true') { closeHot(); b.focus(); } } });
+matchMedia('(min-width:900px)').addEventListener('change', heroVideo);
+window.addEventListener('resize', () => { if (qtyAll()) document.documentElement.style.setProperty('--dock-h', $('#dock').offsetHeight + 'px'); });
+
+/* ---------- boot ---------- */
+let start = 'fr';
+try { const s = localStorage.getItem('mh-lanterne-lang'); if (s === 'ar' || s === 'fr') start = s; } catch (e) {}
+const qs = new URLSearchParams(location.search);
+if (qs.get('lang') === 'ar' || qs.get('lang') === 'fr') start = qs.get('lang');
+if (['light', 'dark', 'auto'].includes(qs.get('theme'))) themePref = qs.get('theme');
+applyTheme();
+setLang(start);
+archLines();
+observe();
+if (document.fonts && !RM) document.fonts.ready.then(() => { const h = $('#hero-title'); if (h.classList.contains('mr-ready')) requestAnimationFrame(() => { h.classList.add('in'); revealed.add(h.id); }); });
+})();
+</script>
+</body>
+</html>
